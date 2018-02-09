@@ -89,7 +89,11 @@ and modern genre of music discovery.
 - Will Badart
 
 
+*Read the project proposal [here][proposal].*
+
+
 [music-map]: https://www.music-map.com "music-map.com"
 [echo nest]: https://developer.spotify.com/spotify-echo-nest-api
 [spotify dev]: https://developer.spotify.com/web-api/get-recommendations
 [diagram]: ./docs/RhapsodyER.jpg
+[proposal]: https://docs.google.com/document/u/1/d/e/2PACX-1vQNxzjD-FGfpvWqVDfiONowMLfyproNbusEhafd4aMpwSxZKjiSYF4N-kvraaIjSR4bJArAKajUoDUF/pub
