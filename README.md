@@ -76,7 +76,7 @@ and modern genre of music discovery.
 
 ## Database Design
 
-![ER Diagram](./docs/Rhapsody ER.png')
+![ER Diagram](./docs/Rhapsody ER.png)
 
 
 ## Collaborators
