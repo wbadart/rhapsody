@@ -74,6 +74,11 @@ preferences in a visual and dynamic way, we introduce an exciting
 and modern genre of music discovery.
 
 
+## Database Design
+
+![ER Diagram](./docs/Rhapsody ER.png')
+
+
 ## Collaborators
 
 - Andrew Munch
