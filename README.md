@@ -1,6 +1,6 @@
 # rhapsody
 
-Rhapsody will enable users to visualize their music in new way. We
+Rhapsody will enable users to visualize their music in new ways. We
 will generate and show a dynamic graph showing connections between
 a user’s favorite songs, artists, and genres, and use that to help
 them discover new music.
