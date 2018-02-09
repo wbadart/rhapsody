@@ -56,7 +56,7 @@ Another planned feature is the **party playlist**, a shared
 playlist based on the combined recommendations for a group of
 users.
 
-### Advanced Functions:
+### Advanced Functions
 
 #### Song recommendations
 
