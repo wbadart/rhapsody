@@ -76,7 +76,9 @@ and modern genre of music discovery.
 
 ## Database Design
 
-![ER Diagram](./docs/RhapsodyER.jpg)
+![ER Diagram][diagram]
+
+[Full sized image][diagram]
 
 
 ## Collaborators
@@ -90,3 +92,4 @@ and modern genre of music discovery.
 [music-map]: https://www.music-map.com "music-map.com"
 [echo nest]: https://developer.spotify.com/spotify-echo-nest-api
 [spotify dev]: https://developer.spotify.com/web-api/get-recommendations
+[diagram]: ./docs/RhapsodyER.jpg'
