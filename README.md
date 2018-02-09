@@ -5,7 +5,7 @@ will generate and show a dynamic graph showing connections between
 a user’s favorite songs, artists, and genres, and use that to help
 them discover new music.
 
-The website “[music-map.com](music-map)” (see
+The website “[music-map.com][music-map]” (see
 [next section](#Usefulness) provides a simple visual analog for
 what we hope to accomplish, but we also want to incorporate the
 music that a user actually listens to, and we want to include
@@ -15,7 +15,7 @@ with the user’s Spotify account.
 
 ## Usefulness
 
-[Music-map.com](music-map "music-map.com") has done a very similar
+[Music-map.com][music-map] has done a very similar
 thing in terms of the visualization they provide. Rhapsody will
 build on this functionality by incorporating social features and
 advanced recommendation tools. If you are friends with someone on
@@ -26,8 +26,8 @@ for you as well as your own data points.
 ## Realness
 
 Our data will come from The Echo Nest database, which is owned by
-Spotify and available through a public API. See [this](echo nest)
-and [this](spotify dev). The Echo Nest contains over a billion data
+Spotify and available through a public API. See [this][echo nest]
+and [this][spotify dev]. The Echo Nest contains over a billion data
 points about more than 38 million songs. Before we deploy the
 application, we will construct our own database containing
 information from the API; **the application will not talk to the
