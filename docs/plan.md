@@ -51,15 +51,13 @@ We do not expect to build an extensive user base before the end of the semester,
 
 ### Front End Application
 
-**UX/ Site Layout and Strategy Gurus:** Andrew & Mark
-
-**Graph Visualization Wizard:** Will
+- **UX/ Site Layout and Strategy Gurus:** Andrew & Mark
+- **Graph Visualization Wizard:** Will
 
 ### Back End API and Database
 
-**DB Management and Query Poet:** Madeline
-
-**API Design Masters:** Andrew & Mark
+- **DB Management and Query Poet:** Madeline
+- **API Design Masters:** Andrew & Mark
 
 
 ## Project Timeline
