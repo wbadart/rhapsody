@@ -1,5 +1,7 @@
 # rhapsody
 
+**UPDATE:** Stage 2 document [here](https://wbadart.github.io/rhapsody/docs/plan)
+
 Rhapsody will enable users to visualize their music in new ways. We
 will generate and show a dynamic graph showing connections between
 a user’s favorite songs, artists, and genres, and use that to help
