@@ -1,5 +1,7 @@
 # Rhapsody Development Plan
 
+[Home] | [Repo]
+
 ## Relational Schema
 
 Below is the planned relational schema for our database, as described by the ER diagram from the proposal document. Keys and functional dependencies are included.
@@ -71,6 +73,9 @@ We do not expect to build an extensive user base before the end of the semester,
 | Song Recommendations | Late April |
 | Party Playlist (nice to have) | Early May |
 
+
+[Home]: https://wbadart.github.io/rhapsody
+[Repo]: https://github.com/wbadart/rhapsody
 
 [Django]: https://www.djangoproject.com/
 [D3.js]: https://d3js.org/
