@@ -1,6 +1,6 @@
 # rhapsody
 
-**UPDATE:** Stage 2 document [here](https://wbadart.github.io/rhapsody/docs/plan)
+[Repo] | [Stage 2]
 
 Rhapsody will enable users to visualize their music in new ways. We
 will generate and show a dynamic graph showing connections between
@@ -93,6 +93,9 @@ and modern genre of music discovery.
 
 *Read the project proposal [here][proposal].*
 
+
+[Repo]: https://github.com/wbadart/rhapsody
+[Stage 2]: https://wbadart.github.io/rhapsody/docs/plan
 
 [music-map]: https://www.music-map.com "music-map.com"
 [echo nest]: https://developer.spotify.com/spotify-echo-nest-api
