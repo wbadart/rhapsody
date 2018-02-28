@@ -46,6 +46,7 @@ Client routing will be handled by the server, but if it becomes evident by the e
 ## Data Sources
 
 Our initial source of truth will be the Echo Nest API (web-based), as maintained by Spotify. During the early development stages, we intend to port a subset of this data into our own database, shaped in a way specifically tailored to our application. As stated in the proposal, the Echo Nest has over a trillion data points on more than 36 million songs. Even capturing a small subset of this data set would result in a rich baseline for our app. The app will interface with this database (not the Echo Nest) during runtime.
+
 We do not expect to build an extensive user base before the end of the semester, but we do plan on building the pipes that would garnish usage data and leverage it for the app. This includes social features such as the *party playlist*.
 
 
