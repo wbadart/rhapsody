@@ -2,6 +2,8 @@
 
 [Home] | [Repo] | [Stage 2] | [Stage 3]
 
+[Project Demo URL]
+
 Rhapsody will enable users to visualize their music in new ways. We
 will generate and show a dynamic graph showing connections between
 a user’s favorite songs, artists, and genres, and use that to help
@@ -104,3 +106,4 @@ and modern genre of music discovery.
 [spotify dev]: https://developer.spotify.com/web-api/get-recommendations
 [diagram]: ./docs/RhapsodyER.jpg
 [proposal]: https://docs.google.com/document/u/1/d/e/2PACX-1vQNxzjD-FGfpvWqVDfiONowMLfyproNbusEhafd4aMpwSxZKjiSYF4N-kvraaIjSR4bJArAKajUoDUF/pub
+[Project Demo URL]: http://dsg1.crc.nd.edu/cse30246/rhapsody/
