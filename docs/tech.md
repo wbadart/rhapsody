@@ -18,3 +18,5 @@ Client routing will be handled by the server, but if it becomes evident by the e
 [Repo]: https://github.com/wbadart/rhapsody
 
 [Project Demo URL]: http://dsg1.crc.nd.edu/rhapsody
+[D3.js]: https://d3js.org/
+[Vue.js]: https://vuejs.org/
