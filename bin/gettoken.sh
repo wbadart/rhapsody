@@ -22,6 +22,17 @@ usage() {
 }
 
 
+mybase64() {
+    # base64(1) doesn't seem to produce accurate encoding. Use python instead
+    read auth_str
+    python<<EOF
+from __future__ import print_function
+from base64 import b64encode
+print(b64encode('$auth_str'.encode()).decode())
+EOF
+}
+
+
 while getopts 'h' arg; do
     case $arg in
         h)  usage;;
@@ -29,8 +40,8 @@ while getopts 'h' arg; do
     esac
 done
 
-auth_str=`echo "$CLIENT_ID:$SPOTIFY_SECRET" | base64 | tr -d '\n'`
+auth_str=`echo "$CLIENT_ID:$SPOTIFY_SECRET" | mybase64`
 curl --http1.1 -X 'POST' \
     -H "Authorization: Basic ${auth_str::-1}=" \
     -d 'grant_type=client_credentials' \
-    $AUTH_URI
+    $AUTH_URI 2> /dev/null
