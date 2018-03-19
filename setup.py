@@ -13,6 +13,7 @@ setup(name='rhapsody',
 
       install_requires=[
           'Django',
+          'mysqlclient',
           'requests',
           'wbutil',
       ],
