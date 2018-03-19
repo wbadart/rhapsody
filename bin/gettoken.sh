@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ##
-# bootstrap.sh
+# bin/gettoken.sh
 #
 # Request a new Spotify auth token via the Client Credentials auth flow.
 #
