@@ -10,39 +10,82 @@ created: MAR 2018
 '''
 
 import requests as r
+from base64 import b64encode as b64
 from functools import partial
 from json import dumps
+from operator import itemgetter
+from os import environ
 from wbutil import PersistentDict
 
 API_URI_FMT = 'https://api.spotify.com/v1/{0}'
+AUTH_URI = 'https://accounts.spotify.com/api/token'
+CLIENT_ID = '2f444881b6034fd59ca98950a2466e5a'
 
 
-def spotify_request(token, endpoint):
+class Spotify(object):
     '''
+    Class which simplifies sending requests to the Spotify API on behalf of the
+    rhapsody application.
     '''
-    res = r.get(API_URI_FMT.format(endpoint), headers={
-        'Authorization': 'Bearer {0}'.format(token).strip()})
-    if res.status_code == 401 \
-            and res.json()['message'] == 'The access token expired':
-        raise RuntimeError('You probably need a fresh token')
-    return res
 
+    def __init__(self, token, secret=environ.get('SPOTIFY_SECRET')):
+        '''
+        token:  Spotify access token granted by Client Credentials flow
+        secret: rhapsody client secret (only needed if you want to
+                  automatically refresh the access token when it expires
+        '''
+        self._token = token
+        self._secret = secret
 
-def category_playlists(token, category_id):
-    '''
-    '''
-    return spotify_request(
-        token,
-        'browse/categories/{0}/playlists'.format(
+    def request(self, endpoint):
+        '''
+        Generic Spotify API GET request to `endpoint' (excludes leading slash).
+        '''
+        res = r.get(API_URI_FMT.format(endpoint), headers={
+            'Authorization': 'Bearer {0}'.format(self._token).strip()})
+        if self._expired(res):
+            self._refresh_token()
+            return self.request(endpoint)
+        else:
+            return res
+
+    @property
+    def categories(self):
+        '''Query Spotify for the complete list of category IDs.'''
+        return self.request('browse/categories').json()['categories']['items']
+
+    def playlists_by_category(self, category_id):
+        '''Request the list of playlists for the given category.'''
+        return self.request('browse/categories/{0}/playlists'.format(
             category_id)).json()['playlists']['items']
 
+    def tracks_by_playlist(self, playlist_id):
+        '''
+        Request track IDs for every track on playlist of the given id.
+        '''
+        return [item['track'] for item in self.request(
+            'playlists/{0}/tracks'.format(playlist_id)).json()['items']]
 
-def playlist_tracks(token, playlist_id):
-    '''
-    '''
-    return [item['track'] for item in spotify_request(
-        token,
-        'playlists/{0}/tracks'.format(playlist_id)).json()['items']]
+    def track_details(self, track_id):
+        '''Request the details for track of given track_id.'''
+        return self.request('tracks/{0}'.format(track_id)).json()
+
+    def _refresh_token(self):
+        '''Update self's access token with a new access token from Spotify.'''
+        if self._secret is None:
+            raise RuntimeError(
+                'Client secret not provided. Please request a new token')
+        auth_str = (CLIENT_ID + ':' + self._secret).encode()
+        res = r.post(AUTH_URI, headers={
+            'Authorization': 'Basic {0}'.format(b64(auth_str).decode())},
+            data={'grant_type': 'client_credentials'})
+        self._token = res.json()['access_token']
+
+    @staticmethod
+    def _expired(res):
+        '''Determine if the request is reporting an expired access token.'''
+        return res.status_code == 401 \
+            and res.json()['error']['message'] == 'The access token expired'
 
 
 def main():
@@ -53,24 +96,19 @@ def main():
     parser.add_argument('token', metavar='TOKEN', help='Spotify access token')
     args = parser.parse_args()
 
-    req = partial(spotify_request, args.token)
-
-    categories = (category['id'] for category in req(
-        'browse/categories').json()['categories']['items'])
+    spotify = Spotify(args.token)
+    ids = partial(map, itemgetter('id'))
 
     with PersistentDict(
             path='data/starting_tracks.json',
             encode=partial(dumps, indent=2)) as result:
-        for category in categories:
+        for category in ids(spotify.categories):
             result[category] = {}
-            playlists = category_playlists(args.token, category)
-            for playlist in playlists:
-                result[category][playlist['id']] = []
-                tracks = playlist_tracks(args.token, playlist['id'])
-                for track in tracks:
-                    track_details = spotify_request(
-                        args.token, 'tracks/{0}'.format(track['id'])).json()
-                    result[category][playlist['id']].append(track_details)
+            for playlist_id in ids(spotify.playlists_by_category(category)):
+                result[category][playlist_id] = []
+                for track_id in ids(spotify.tracks_by_playlist(playlist_id)):
+                    track = spotify.track_details(track_id)
+                    result[category][playlist_id].append(track)
 
 
 if __name__ == '__main__':
