@@ -42,6 +42,6 @@ done
 
 auth_str=`echo "$CLIENT_ID:$SPOTIFY_SECRET" | mybase64`
 curl --http1.1 -X 'POST' \
-    -H "Authorization: Basic ${auth_str::-1}=" \
+    -H "Authorization: Basic $auth_str" \
     -d 'grant_type=client_credentials' \
     $AUTH_URI 2> /dev/null
