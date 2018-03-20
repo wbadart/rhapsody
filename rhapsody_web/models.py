@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Artist(models.Model):
     pass
 
@@ -26,6 +25,14 @@ class Concert(models.Model):
 
 class User(models.Model):
     username = models.CharField(max_length=30, primary_key=True)
+    artist = models.ManyToManyField(Artist)
+    genre = models.ManyToManyField(Genre)
+    album = models.ManyToManyField(Album)
+    song = models.ManyToManyField(Song)
+    playlist_made = models.ManyToManyField(Playlist)
+    #playlist_followed = models.ManyToManyField(Playlist)
+    radio_station = models.ManyToManyField(RadioStation)
+    friends = models.ManyToManyField("User")
 
 class Admin(User):
     pass
