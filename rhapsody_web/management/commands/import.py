@@ -26,7 +26,7 @@ alb_type_dict = {
 class Command(BaseCommand):
     help = "Imports seed data from data/starting_tracks.json."
 
-    DATA_PATH = "data/starting_tracks.json"
+    DATA_PATH = "data/core_data.json"
 
     def handle(self, *args, **options):
         data = json.load(open(self.DATA_PATH))
