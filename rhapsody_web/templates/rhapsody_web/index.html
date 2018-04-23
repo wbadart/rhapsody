@@ -9,10 +9,39 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
         integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
+
+    <style>
+        .page-header {
+            margin-top: 2em;
+        }
+    </style>
 </head>
-<body>
-    <main class="container">
-        <h1>Hello {{test}}!</h1>
+<body class="container">
+
+    <header class="page-header">
+        <h1>rhapsody</h1>
+        <p>Next generation music recommendation</p>
+    </header>
+
+    <main>
+        <ul>
+            {% for song in songs %}
+            <li>
+                <strong>{{ song.title }}</strong>
+                by {{ song.artist.name }}
+            </li>
+            {% endfor %}
+        </ul>
     </main>
+
+    <hr>
+    <footer>
+        <p>
+            Project executed for Notre Dame CSE-30246.
+            See <a href="https://github.com/wbadart/rhapsody">repo</a> for details.
+            <br>
+            &copy; 2018 CSE-30246 Rhapsody Project Group
+        </p>
+    </footer>
 </body>
 </html>
