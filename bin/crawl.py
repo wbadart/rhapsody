@@ -99,16 +99,21 @@ def main():
     spotify = Spotify(args.token)
     ids = partial(map, itemgetter('id'))
 
+    track_set = set()
+
     with PersistentDict(
-            path='data/starting_tracks.json',
+            path='../data/core_data.json',
             encode=partial(dumps, indent=2)) as result:
         for category in ids(spotify.categories):
             result[category] = {}
+            print(category)
             for playlist_id in ids(spotify.playlists_by_category(category)):
                 result[category][playlist_id] = []
                 for track_id in ids(spotify.tracks_by_playlist(playlist_id)):
-                    track = spotify.track_details(track_id)
-                    result[category][playlist_id].append(track)
+                    if track_id not in track_set:
+                        track = spotify.track_details(track_id)
+                        result[category][playlist_id].append(track)
+                        track_set.add(track_id)
 
 
 if __name__ == '__main__':
