@@ -22,18 +22,14 @@
         <h1>rhapsody</h1>
         <p>Next generation music recommendation</p>
     </header>
-
-    <main>
-        <ul>
-            {% for song in songs %}
-            <li>
-                <strong>{{ song.title }}</strong>
-                by {{ song.artist.name }}
-            </li>
-            {% endfor %}
-        </ul>
-    </main>
-
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
     <hr>
     <footer>
         <p>
@@ -42,7 +38,6 @@
             <br>
             &copy; 2018 CSE-30246 Rhapsody Project Group
         </p>
-        <p><a href="/accounts/logout">Logout</a><p>       
     </footer>
 </body>
 </html>
