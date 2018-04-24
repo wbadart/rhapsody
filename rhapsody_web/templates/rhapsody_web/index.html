@@ -9,6 +9,11 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
         integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js">
+    </script>
 
     <style>
         .page-header {
@@ -32,6 +37,8 @@
             </li>
             {% endfor %}
         </ul>
+        <hr>
+        <div id="graph"></div>
     </main>
 
     <hr>
@@ -42,7 +49,9 @@
             <br>
             &copy; 2018 CSE-30246 Rhapsody Project Group
         </p>
-        <p><a href="/accounts/logout">Logout</a><p>       
+        <p><a href="/accounts/logout">Logout</a><p>
     </footer>
+
+    <script src="/static/rhapsody_web/graph.js"></script>
 </body>
 </html>
