@@ -8,12 +8,9 @@ Mark Pruitt <netid:mpruitt1>
 created: 04 2018
 '''
 
-import requests as r
-from base64 import b64encode as b64
 from functools import partial
-from json import dumps
+from json import dumps, load
 from operator import itemgetter
-from os import environ
 from wbutil import PersistentDict
 
 from crawl import Spotify
@@ -40,8 +37,9 @@ class SpotifyArtists(Spotify):
             album_id)).json()['items']]
 
 
-def getStartingArtist(filename):
-    json_data = json.load(open(filename))
+def getStartingArtists(filename):
+    with open(filename) as fs:
+        json_data = load(fs)
     return_list = json_data['toplists']['album']['artists']['id']
     print(return_list)
     return return_list
@@ -63,18 +61,21 @@ def main():
     with PersistentDict(
             path='../data/artist_data.json',
             encode=partial(dumps, indent=2)) as result:
-            artists = getStartingArtist('../data/core_data.json')
-            track_set = set()
-            '''for artist in artists:
-                    result[artist] = {}
-                    for albums in id(spotify.albums_by_artists(artist)):
-                           for song in id(sportify.songs_by_album(albums)):
-                                   if song not in track_set:
-                                           track_set.add(song)
-                                           track_info = spotify.track_details(track)
-                                           result[artist][albums].append(track)'''
+        artists = getStartingArtists('../data/core_data.json')
+        track_set = set()
+        for artist in artists:
+            result[artist] = {}
+            for albums in ids(spotify.albums_by_artists(artist)):
+                for song in ids(spotify.songs_by_album(albums)):
+                    if song not in track_set:
+                        # track_set.add(song)
+                        # track_info = spotify.track_details(song)
+                        # result[artist][albums].append(song)
+                        pass
 
 
 if __name__ == '__main__':
     from sys import exit
     exit(main())
+
+# vim: set expandtab ts=4
