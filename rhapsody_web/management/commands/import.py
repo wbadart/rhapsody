@@ -46,7 +46,11 @@ class Command(BaseCommand):
                 alb = Album(album_type=alb_type_dict[alb_data['album_type']], \
                             spotify_id = alb_data['id'], name=alb_data['name'][0:30], \
                             release_date=r_date)
-                alb.save()
+                
+                try:
+                    alb.save()
+                except:
+                    continue
                 
                 for art in s['artists']:
                     artist_obj = Artist(spotify_id=art['id'],  popularity=None, name=art['name'])
@@ -55,6 +59,7 @@ class Command(BaseCommand):
 
                 so = Song(spotify_id=s['id'], title=s['name'][0:30], artist=artist_obj, \
                             album=alb)
+                print(s['name'])
                 try:
                     so.save()  
                     playlist_obj.songs.add(so)             
