@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'rhapsody',
         'USER': 'rhapsody',
-        'PASSWORD': 'pw',
+        'PASSWORD': os.environ.get('MYSQL_PW', 'pw'),
         'HOST': 'localhost',
         'PORT': '',
     }
