@@ -1,6 +1,6 @@
 import rhapsody_web.models as models
 
-from django.http import HttpResponse
+from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render, redirect
 
 from django.contrib.auth import login, authenticate
@@ -8,6 +8,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 
 from random import sample
+
 
 def signup(request):
     if request.method == 'POST':
@@ -27,3 +28,10 @@ def signup(request):
 def index(req):
     songs = sample(list(models.Song.objects.all()), k=10)
     return render(req, 'rhapsody_web/index.html', {'songs': songs})
+
+
+def rand_songs(req, n):
+    from itertools import product
+    songs = [s.title for s in sample(list(models.Song.objects.all()), k=n)]
+    pairs = sample(list(product(songs, repeat=2)), k=n)
+    return JsonResponse([[s for s in songs], pairs], safe=False)

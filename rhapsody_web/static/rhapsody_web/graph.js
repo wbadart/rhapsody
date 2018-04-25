@@ -7,21 +7,28 @@
  * created: APR 2018
  */
 
-// (function(global) {
-// 'use strict';
+(function(global) {
+'use strict';
 
-var nodes = new vis.DataSet([
-    {id: 2, label: 'node 2'},
-    {id: 3, label: 'node 3'},
-    {id: 4, label: 'node 4'}
-]);
+global.onload = getjson.bind(null, 'test/10', mkgraph);
 
-var edges = new vis.DataSet([
-      {from: 2, to: 3},
-      {from: 3, to: 4},
-]);
 
-var container = document.getElementById('graph');
-var network = new vis.Network(container, {nodes, edges}, {});
+})(window);
 
-// })(window);
+
+function mkgraph([names, links]) {
+    var nodes = new vis.DataSet(names.map((n, i) => ({id: n, label: n})))
+      , edges = new vis.DataSet(links.map(([e1, e2]) => ({from: e1, to: e2})));
+    new vis.Network(document.getElementById('graph'), {nodes, edges}, {});
+}
+
+
+function getjson(path, cb) {
+    var req = new XMLHttpRequest();
+    req.onload = function() {
+        cb(JSON.parse(this.response));
+    };
+    req.open('GET', path);
+    req.send();
+    return req;
+}
