@@ -58,6 +58,12 @@ class Spotify(object):
         '''Query Spotify for the complete list of category IDs.'''
         return self.request('browse/categories').json()['categories']['items']
 
+    def album_info(self,album_id):
+        return self.request('albums/{0}/'.format(album_id)).json()
+
+    def artist_info(self,artist_id):
+        return self.request('artists/{0}/'.format(artist_id)).json()
+
     def related_artists(self,artists_id):
         return self.request('artists/{0}/related-artists/'.format(artists_id)).json()['artists']
 
@@ -103,6 +109,13 @@ def getStartingArtist(filename):
                 artist_list.append(a["id"])
     return artist_list
 
+# save some space by making sure we do not repeat albums
+def checkRepeatAlbum(name,album_list):
+    for album in album_list:
+        if album['name'] == name:
+           return False
+    return True
+
 
 def main():
     from argparse import ArgumentParser
@@ -119,17 +132,18 @@ def main():
     completed_artists = set()
     with PersistentDict(
         path='../data/artist_data.json',
-        encode=partial(dumps, indent=2)) as result:
-        count = 0
+        encode=partial(dumps, indent=0)) as result:
+        count = -1
         all_artists = []
         for artist in artists:
             if artist in completed_artists:
                 continue
             all_artists.append(artist)
             completed_artists.add(artist)
-            for related_artists in ids(spotify.related_artists(artist)):
-                all_artists.append(related_artists)
-                completed_artists.add(related_artists)
+            '''for related_artists in ids(spotify.related_artists(artist)):
+                if related_artists not in completed_artists:
+                    all_artists.append(related_artists)
+                    completed_artists.add(related_artists)'''
         completed_artists = set()
         print("Number of Artists: "+str(len(all_artists)))
         for artist in all_artists: # for each artists in our "queue"
@@ -137,14 +151,38 @@ def main():
                 continue
             completed_artists.add(artist) # add to done set
             count = count+1
-            print("Progress: "+str(count/len(artists)*100.0)+"%")
+            print("Progress: "+str((count/len(all_artists))*100.0)+"%")
+            # HANDLE ARTIST INFO
             result[artist] = {}
+            artist_json = spotify.artist_info(artist)
+            result[artist]['id'] = artist
+            result[artist]['genres'] = artist_json['genres']
+            result[artist]['name'] = artist_json['name']
+            result[artist]['popularity'] = artist_json['popularity']
+            result[artist]['albums'] = []
+            # END ARTIST INFO
             for albums in ids(spotify.albums_by_artists(artist)): # each album of artist
-                result[artist][albums] = []
-                #print(albums)
-                for song in ids(spotify.songs_by_album(albums)): # each song for album
-                    track = spotify.track_details(song)
-                    result[artist][albums].append(track)
+                # HANDLE ALBUM INFO
+                full_albums = spotify.album_info(albums)
+                if checkRepeatAlbum(full_albums['name'],result[artist]['albums']):
+                    new_dict = {}
+                    new_dict['id'] = albums
+                    new_dict['images'] = full_albums['images']
+                    new_dict['name'] = full_albums['name']
+                    new_dict['release_date'] = full_albums['release_date']
+                    new_dict['tracks'] = []
+                    # END ALBUM INFO
+                    for song in ids(spotify.songs_by_album(albums)): # each song for album
+                        # HANDLE TRACK INFO
+                        track = spotify.track_details(song)
+                        track_info = {}
+                        track_info['id'] = song
+                        track_info['explicit'] = track['explicit']
+                        track_info['name'] = track['name']
+                        track_info['popularity'] = track['popularity']
+                        track_info['release_date'] = full_albums['release_date']
+                        new_dict['tracks'].append(track_info)
+                    result[artist]['albums'].append(new_dict)
     print("COMPLETE")
 
 
