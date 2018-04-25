@@ -116,7 +116,6 @@ def checkRepeatAlbum(name,album_list):
            return False
     return True
 
-
 def main():
     from argparse import ArgumentParser
     parser = ArgumentParser(
@@ -134,16 +133,19 @@ def main():
         path='../data/artist_data.json',
         encode=partial(dumps, indent=0)) as result:
         count = -1
-        all_artists = []
-        for artist in artists:
-            if artist in completed_artists:
-                continue
-            all_artists.append(artist)
-            completed_artists.add(artist)
-            '''for related_artists in ids(spotify.related_artists(artist)):
-                if related_artists not in completed_artists:
-                    all_artists.append(related_artists)
-                    completed_artists.add(related_artists)'''
+        all_artists = artists
+        num_related = 3 # number of times to get related artist
+        for i in range(0,num_related):
+            for artist in all_artists:
+                if artist in completed_artists: # already found them
+                    continue
+                all_artists.append(artist)
+                completed_artists.add(artist)
+                # get the related artists (unique)
+                for related_artists in ids(spotify.related_artists(artist)):
+                    if related_artists not in completed_artists:
+                        all_artists.append(related_artists)
+                        completed_artists.add(related_artists)
         completed_artists = set()
         print("Number of Artists: "+str(len(all_artists)))
         for artist in all_artists: # for each artists in our "queue"
