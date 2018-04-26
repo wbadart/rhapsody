@@ -4,40 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>rhapsody | Home</title>
-    <link
-        rel="stylesheet"
+    <link rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
         integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/rhapsody_web/vis.min.css">
+    <link rel="stylesheet" href="/static/rhapsody_web/fullpage/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="/static/rhapsody_web/main.css">
+    <link rel="stylesheet" href="/static/rhapsody_web/video.css">
+    <link rel="icon" type="image/png" href="/static/rhapsody_web/favicon.ico">
+    <script src="/static/rhapsody_web/jquery.min.js"></script>
+    <script src="/static/rhapsody_web/vis.min.js"></script>
+    <script src="/static/rhapsody_web/fullpage/scrolloverflow.min.js"></script>
+    <script src="/static/rhapsody_web/fullpage/jquery.fullpage.min.js"></script>
 
-    <style>
-        .page-header {
-            margin-top: 2em;
-        }
-    </style>
 </head>
-<body class="container">
-
-    <header class="page-header">
-        <h1>rhapsody</h1>
-        <p>Next generation music recommendation</p>
-    </header>
-    <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
-            {% block content %}
-            {% endblock %}
-            </div>
-        </div>
-    </div>
-    <hr>
-    <footer>
-        <p>
-            Project executed for Notre Dame CSE-30246.
-            See <a href="https://github.com/wbadart/rhapsody">repo</a> for details.
-            <br>
-            &copy; 2018 CSE-30246 Rhapsody Project Group
-        </p>
-    </footer>
+<body>
+    {% block content %}
+    {% endblock %}
 </body>
 </html>
