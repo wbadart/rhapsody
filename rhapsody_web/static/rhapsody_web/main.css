@@ -1,0 +1,29 @@
+body, .fp-tooltip { font-family: 'Poppins', sans-serif !important; }
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: white;
+}
+.page-header {
+    color: white;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.page-header h1 { font-size: 4em; }
+.page-header p { font-size: 2em; }
+.R {
+    height: .9em;
+    margin-left: -7px;
+    margin-top: 6px;
+}
+div#graph {
+    height: 80%;
+}
+
+span.helptext {
+    display: block;
+    font-size: 0.5em;
+}
+
+#signup-block label, input {
+    display: block;
+    font-size: 0.7em;
+}
