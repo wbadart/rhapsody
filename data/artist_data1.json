@@ -1,0 +1,3363 @@
+{
+"1pPmIToKXyGdsCF6LmqLmI": {
+"id": "1pPmIToKXyGdsCF6LmqLmI",
+"genres": [
+"hip hop",
+"pop",
+"pop rap",
+"rap",
+"southern hip hop",
+"trap music"
+],
+"name": "Rich The Kid",
+"popularity": 87,
+"albums": [
+{
+"id": "5cyx5207ZDS7ZhmLFiBoUx",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/4a05d4f5bec8e872222f9a0e2adb1b1cbc91ea36",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/8324b00e7cee6262b607afad986bbac7cf310013",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/11ec672847a0c3bc71b1f662d5fd40ae9b977721",
+"width": 64
+}
+],
+"name": "The World Is Yours",
+"release_date": "2018-03-30",
+"tracks": [
+{
+"id": "1ykGDszKBFNNxsxvWkAMFY",
+"explicit": true,
+"name": "World Is Yours",
+"popularity": 70,
+"release_date": "2018-03-30"
+},
+{
+"id": "0eHCArTPhwUxatY7cEXRiK",
+"explicit": true,
+"name": "New Freezer (feat. Kendrick Lamar)",
+"popularity": 81,
+"release_date": "2018-03-30"
+},
+{
+"id": "0ITqOOwNtw5DP2GLYAlTQx",
+"explicit": true,
+"name": "No Question (feat Future)",
+"popularity": 77,
+"release_date": "2018-03-30"
+},
+{
+"id": "6mAz8D1TmlTuef90dbNIiZ",
+"explicit": true,
+"name": "Plug Walk",
+"popularity": 91,
+"release_date": "2018-03-30"
+},
+{
+"id": "4j30n3zuJQJ5qGA6rSTaST",
+"explicit": true,
+"name": "Too Gone (feat. Khalid)",
+"popularity": 78,
+"release_date": "2018-03-30"
+},
+{
+"id": "22fwtPLKteNlQzXd9wNMHm",
+"explicit": true,
+"name": "Made It (feat. Jay Critch & Rick Ross)",
+"popularity": 71,
+"release_date": "2018-03-30"
+},
+{
+"id": "33KtdJSP6CuWDOjEEbilZy",
+"explicit": true,
+"name": "Drippin' (feat. Chris Brown)",
+"popularity": 71,
+"release_date": "2018-03-30"
+},
+{
+"id": "0P1O6JO2i19etVxXqgPHpa",
+"explicit": true,
+"name": "Lost It (feat. Quavo & Offset)",
+"popularity": 77,
+"release_date": "2018-03-30"
+},
+{
+"id": "0qFX9pVJQB4lBMxRoFXqGr",
+"explicit": true,
+"name": "End Of Discussion (feat. Lil Wayne)",
+"popularity": 79,
+"release_date": "2018-03-30"
+},
+{
+"id": "3uQVotHaLudJ5C0OJ0iEZ9",
+"explicit": true,
+"name": "Early Morningn Trappin' (feat. Trippie Redd)",
+"popularity": 77,
+"release_date": "2018-03-30"
+},
+{
+"id": "42SDgiFQl7cCS6XjvDhO5w",
+"explicit": true,
+"name": "Small Things",
+"popularity": 70,
+"release_date": "2018-03-30"
+},
+{
+"id": "6ltiunfEoFQvY9bMGpHtvK",
+"explicit": true,
+"name": "Listen Up",
+"popularity": 67,
+"release_date": "2018-03-30"
+},
+{
+"id": "6pR8ChOYHGHmFFow0fryd1",
+"explicit": true,
+"name": "Gargoyle (feat. Swae Lee & Offset)",
+"popularity": 69,
+"release_date": "2018-03-30"
+},
+{
+"id": "3rA9L6ACYuNkyo3yd5LigW",
+"explicit": true,
+"name": "Dead Friends",
+"popularity": 74,
+"release_date": "2018-03-30"
+}
+]
+},
+{
+"id": "21QGKTollHZls9McxGevET",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/c12695d9e1bf9ebe58ff01f89c0ca97ab13dcd5f",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/8b2e651b70ea23a4bad69a3563a8a6e35de20281",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/150ec985f9b02a1dad8ae726a2a8cc6e8a86e945",
+"width": 64
+}
+],
+"name": "White Girls",
+"release_date": "2018-04-20",
+"tracks": [
+{
+"id": "4OAKWufou8Zi9oZ47wA0LF",
+"explicit": false,
+"name": "White Girls",
+"popularity": 18,
+"release_date": "2018-04-20"
+}
+]
+},
+{
+"id": "5jysmkL0g5dpgMYnECHogq",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/d7b6689de1d7016bce4606700b29b52734fa0c76",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/02d4d93df691108968fdf787dbc60cd270efb75e",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/4900828d029b3c3798e584758c727bf8735a4d2b",
+"width": 64
+}
+],
+"name": "Plug Walk (feat. Dark Polo Gang)",
+"release_date": "2018-04-13",
+"tracks": [
+{
+"id": "62SEt25NCNsBP37cxwNg49",
+"explicit": true,
+"name": "Plug Walk (feat. Dark Polo Gang)",
+"popularity": 62,
+"release_date": "2018-04-13"
+}
+]
+},
+{
+"id": "6bGLqYUke9n0xDZQdpn18p",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/5393da60966c9adcae73cd6b1830eac8e3c5b7c8",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/095f9563a6f90b9c337f362ebf173fcc6a1f88ff",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/b89b90dea897744d57b13216dd71bbf9857466dc",
+"width": 64
+}
+],
+"name": "Betrayed (Remix)",
+"release_date": "2018-03-15",
+"tracks": [
+{
+"id": "36JPhaE64VSjpVHta9p2EA",
+"explicit": true,
+"name": "Betrayed - Remix",
+"popularity": 69,
+"release_date": "2018-03-15"
+}
+]
+},
+{
+"id": "2SiJ7pTCItRaK4YwAvT42v",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/8cdba0581f2c02d22a820a15c77868fab08c67f3",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/156c057d6028479cf46a48995bca78054fbb5f0e",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/e14425cc7e720ef57673574db324429f5ddb8e45",
+"width": 64
+}
+],
+"name": "Hi Bich (Remix) [feat. YBN Nahmir, Rich The Kid and Asian Doll]",
+"release_date": "2018-01-16",
+"tracks": [
+{
+"id": "0bkQYlNsqsV19VTaKQWego",
+"explicit": true,
+"name": "Hi Bich (Remix) [feat. YBN Nahmir, Rich The Kid and Asian Doll]",
+"popularity": 70,
+"release_date": "2018-01-16"
+}
+]
+},
+{
+"id": "6BcAkjQDIKL7tJhi7Dkd1f",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/94294054f475aac9e27474007fcd1f84569741be",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/900b1f3acb09a27b66889c975a25f1a48002476b",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/acd54466e1f0b4dd7cabdec6280c299e19dcd012",
+"width": 64
+}
+],
+"name": "Avocado",
+"release_date": "2018-01-12",
+"tracks": [
+{
+"id": "38w2ZEXfQxYWgLKXscQw10",
+"explicit": true,
+"name": "Avocado",
+"popularity": 51,
+"release_date": "2018-01-12"
+}
+]
+},
+{
+"id": "4kC70c9QkTCmHaXq7Z4cpE",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/4a905bcdfe14fdfc4bcb9ec9f7179a90705b3a74",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/bb4270a06ef132838e5f4da90ae82f5ca33ad6ed",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/f3a886788e30a888b6e9ed26790d8569bd47f280",
+"width": 64
+}
+],
+"name": "Cookies & Sherbert",
+"release_date": "2017-08-25",
+"tracks": [
+{
+"id": "7jLflxtzRPpeifPi4yIcZv",
+"explicit": true,
+"name": "Cookies & Sherbert",
+"popularity": 59,
+"release_date": "2017-08-25"
+}
+]
+},
+{
+"id": "4IZGRiuEUwmhdltlbYPvHP",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/b438a46cc22f3cbd38fb6db8159d7930c8ad64ed",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/f59bf8ed79cb077193ffaab8600b35377a25c437",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/0081c1b291f127c61ba93ff6eac57d6cdc2ec116",
+"width": 64
+}
+],
+"name": "Cocaina",
+"release_date": "2017-08-04",
+"tracks": [
+{
+"id": "4dHh7DeKSg5zDhMOn7jnlw",
+"explicit": true,
+"name": "Cocaina",
+"popularity": 52,
+"release_date": "2017-08-04"
+}
+]
+},
+{
+"id": "7cgSySrx3ETUCyVJFsoPhd",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/2d7a83dba3f2a18fc1b5f9ea01faa88cbad54096",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/12096dcc1d63bcec68aa8e42c4a9fb370a20272a",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/bce80c8d6cef35b95d45bd296e4c9ee0c72ad943",
+"width": 64
+}
+],
+"name": "Pissed Off",
+"release_date": "2017-07-22",
+"tracks": [
+{
+"id": "68XboZFo1vhxrYbL8dpZVI",
+"explicit": true,
+"name": "Pissed Off",
+"popularity": 39,
+"release_date": "2017-07-22"
+}
+]
+},
+{
+"id": "1lYpIK6jLQfEi1QY1YwPPf",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/0f52d2e0b425a70ab3a88a6ecb7fecc49235ac65",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/401d54403c3d42d3ba35f860ac45148f69e2faf4",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/73f1828d060de62fe62b14bb4087ecc1b8065cb7",
+"width": 64
+}
+],
+"name": "Culinary Arts (Cook)",
+"release_date": "2016-09-20",
+"tracks": [
+{
+"id": "4mYAwVobMUSlUfeV9V0OfF",
+"explicit": true,
+"name": "Culinary Arts (Cook)",
+"popularity": 30,
+"release_date": "2016-09-20"
+}
+]
+},
+{
+"id": "4yTGIeGlFcLMPpqSfu06zV",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/0b4531b553229cffb1bc014334a122b3104e22bf",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/aa4b942ca9a94971f2130bd227b01500b78f5a08",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/477ffd3425e5f7d5b0764d61b581a62c1db8f573",
+"width": 64
+}
+],
+"name": "Ran It Up (feat. Young Thug)",
+"release_date": "2016-08-12",
+"tracks": [
+{
+"id": "2BYtScsbvUhv1FYu7TfLcC",
+"explicit": true,
+"name": "Ran It Up (feat. Young Thug)",
+"popularity": 53,
+"release_date": "2016-08-12"
+}
+]
+},
+{
+"id": "2LaCi9KTDc0Pf92H1dil6Q",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/e9ddeb8f8ddc2b5ee0a39508aa313392e6f00d4d",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/e1f5b99417c38ff4e2b76187693d90b2c16536c8",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/cab9f2648bafac0fd497309a52eb596f987cbad7",
+"width": 64
+}
+],
+"name": "Rich The Shit",
+"release_date": "2016-05-15",
+"tracks": [
+{
+"id": "1Beew0k9dOX7ZYzmcz6kd8",
+"explicit": true,
+"name": "Money On Money",
+"popularity": 39,
+"release_date": "2016-05-15"
+},
+{
+"id": "76D1gRbl8B7ugrXccux9iX",
+"explicit": true,
+"name": "On The Horn (feat. Migo Gang, 21 Savage & Mann Mann)",
+"popularity": 53,
+"release_date": "2016-05-15"
+},
+{
+"id": "56suXGuLXMk9s2don3pEl0",
+"explicit": true,
+"name": "Splash",
+"popularity": 42,
+"release_date": "2016-05-15"
+},
+{
+"id": "5bRgxIsDyhZOjrOTJ3W0zw",
+"explicit": true,
+"name": "Trap Jumping (feat. Wiz Khalifa)",
+"popularity": 35,
+"release_date": "2016-05-15"
+},
+{
+"id": "2HiaFpy0J5spuRsNyQukvI",
+"explicit": true,
+"name": "Who Got It",
+"popularity": 46,
+"release_date": "2016-05-15"
+}
+]
+},
+{
+"id": "5RyA35Dok5w92uKZnclGd7",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/ec384e5f23b8d8b7eb176a1d41f44035a78fec0d",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/e5ff7984a51aa2e8b194750eee852240dc92df39",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/45a82238596f28b25024302f6338545e39cc90b0",
+"width": 64
+}
+],
+"name": "That Bag",
+"release_date": "2016-03-18",
+"tracks": [
+{
+"id": "7u9B2WKqrmxk3iQNWFfD1I",
+"explicit": true,
+"name": "That Bag",
+"popularity": 50,
+"release_date": "2016-03-18"
+}
+]
+},
+{
+"id": "2Pc1V8cE51okcfYbQ6PW3c",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/3a62f343709d4fb3f898193bf8699d468dca22e6",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/8b218608cc3f0374888c8537dd9b97df9fffad87",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/f7bde0b1d907e42abb2ba1c6cb637d2f020e1b8d",
+"width": 64
+}
+],
+"name": "Exclusive",
+"release_date": "2015-11-11",
+"tracks": [
+{
+"id": "2zVAthTHMfC9zdLkV0IszW",
+"explicit": true,
+"name": "Exclusive",
+"popularity": 25,
+"release_date": "2015-11-11"
+}
+]
+},
+{
+"id": "5tuoCF5Uu4OunXSp6PhwFF",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/0b330a881db37bb96b7c135b4c1c9d59776019f4",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/25b198bff94eaf0e63c4ebcce08ed728e562defb",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/4df25e3399e973b6cd8874347bab6095b07bcf5c",
+"width": 64
+}
+],
+"name": "Keep It 100 (feat. Fetty Wap)",
+"release_date": "2015-08-07",
+"tracks": [
+{
+"id": "1EmqWYm6cnuCJR3yiaX4Hm",
+"explicit": true,
+"name": "Keep It 100 (feat. Fetty Wap)",
+"popularity": 50,
+"release_date": "2015-08-07"
+}
+]
+},
+{
+"id": "2ZmcC6X23Paw0Jw3ny8cef",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/75dc1ef9c46e8c1c68cd49e796109cc47356af8f",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/e8eab0d14080f2d480dcc34b1322145f551d7255",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/87ad3788fb093319cc5aadef8aa340f5e3d38e04",
+"width": 64
+}
+],
+"name": "Tippin A Stripper (Prod by CashoutBeatz)",
+"release_date": "2015-06-15",
+"tracks": [
+{
+"id": "2cE5kT1d7aSYcd9eiuDIgj",
+"explicit": true,
+"name": "Tippin A Stripper (Prod by CashoutBeatz)",
+"popularity": 42,
+"release_date": "2015-06-15"
+}
+]
+},
+{
+"id": "6PDSG6TsVjGAT5qY7gVHhN",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/d7271213976a9cddffdbd3eee17c09258ad9a78d",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/6ac5b18f85b2c5e93a6f731ce64a555e498c9b58",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/df237107aa5a1d7ab5f9e2c812bda9f9a4b3988b",
+"width": 64
+}
+],
+"name": "Goin Crazy (feat. Migos)",
+"release_date": "2014-08-25",
+"tracks": [
+{
+"id": "0ZQoml3pvJlDcJLsmiqxoF",
+"explicit": true,
+"name": "Goin Crazy (feat. Migos)",
+"popularity": 51,
+"release_date": "2014-08-25"
+}
+]
+},
+{
+"id": "3Xcg4piJj2ygKp0cPVequG",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/ef1041dac9929c9c78b0e6665d3f193f3bfff9d4",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/023e394b92e109702ef93171e235962a5568541b",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/26ac3c45cd8ffc34491ed6c700bb78e0fc9d2ab2",
+"width": 64
+}
+],
+"name": "Why You Mad",
+"release_date": "2014-04-21",
+"tracks": [
+{
+"id": "2EW3dbZrPkXHEUdNCtV5ou",
+"explicit": true,
+"name": "Why You Mad",
+"popularity": 43,
+"release_date": "2014-04-21"
+}
+]
+},
+{
+"id": "3Tr3TrqXroEWxOyakmk8CZ",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/85182e5b666eba6a43fd85ac8b04bbef74c81b24",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/74bb8f28b26ce03c545788a08a2d21352cc37821",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/3f7fc6d41225f77f18148c3480c9de95480008c7",
+"width": 64
+}
+],
+"name": "Innocent",
+"release_date": "2018-04-20",
+"tracks": [
+{
+"id": "6egfNCij1XejRDu1oTa8WW",
+"explicit": true,
+"name": "Intro",
+"popularity": 2,
+"release_date": "2018-04-20"
+},
+{
+"id": "7hdBuK2KLFUJWHWFJpsVmp",
+"explicit": true,
+"name": "Come Up",
+"popularity": 5,
+"release_date": "2018-04-20"
+},
+{
+"id": "5NN9T7lkjSWJHeQLbInaO5",
+"explicit": true,
+"name": "Take 5",
+"popularity": 1,
+"release_date": "2018-04-20"
+},
+{
+"id": "3OuUiod1IeUsab7QSjwS9v",
+"explicit": true,
+"name": "Gold Bars",
+"popularity": 1,
+"release_date": "2018-04-20"
+},
+{
+"id": "52hraONuSynil2Z3y7WGdR",
+"explicit": true,
+"name": "All Mine",
+"popularity": 1,
+"release_date": "2018-04-20"
+},
+{
+"id": "0hlbBYOknbfIfgrcl7uNGT",
+"explicit": true,
+"name": "Clientele",
+"popularity": 1,
+"release_date": "2018-04-20"
+},
+{
+"id": "2AMTIpnNJUZTAUqPXaKyVd",
+"explicit": true,
+"name": "Madden",
+"popularity": 1,
+"release_date": "2018-04-20"
+},
+{
+"id": "2SS5O7GsY3dVYGjyxfUTBP",
+"explicit": true,
+"name": "Chillz",
+"popularity": 1,
+"release_date": "2018-04-20"
+},
+{
+"id": "5M1Yil7WV6tJkndFmfpZyZ",
+"explicit": true,
+"name": "Obsession",
+"popularity": 0,
+"release_date": "2018-04-20"
+},
+{
+"id": "1JSgx6sJnryI2bUHhQqwiX",
+"explicit": false,
+"name": "Wish",
+"popularity": 0,
+"release_date": "2018-04-20"
+},
+{
+"id": "23JkACZKuNvNkxMWXvqHtm",
+"explicit": true,
+"name": "No Rewind",
+"popularity": 0,
+"release_date": "2018-04-20"
+},
+{
+"id": "09O6lGDm5weSB8NK1MQLMX",
+"explicit": true,
+"name": "B4L",
+"popularity": 0,
+"release_date": "2018-04-20"
+},
+{
+"id": "4rgQvYtCIExMXozCUObwlv",
+"explicit": true,
+"name": "What I Want",
+"popularity": 0,
+"release_date": "2018-04-20"
+},
+{
+"id": "7oxOrrnRKD4byMV6Hd8rRj",
+"explicit": false,
+"name": "Pull Up",
+"popularity": 0,
+"release_date": "2018-04-20"
+},
+{
+"id": "431lfjuEd6Ph0OmVbttCIk",
+"explicit": true,
+"name": "White Girls",
+"popularity": 6,
+"release_date": "2018-04-20"
+}
+]
+},
+{
+"id": "4i1ukevFHCZqPSRsXKyYgl",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/894a92b1e3619852a0556d5356c859f79a1af9b9",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/48e603457fd716f01ac02175940aac14e5f33ec4",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/4fd45ced95984c8c47ac69b63406c2c531e8d48a",
+"width": 64
+}
+],
+"name": "KOLORBLIND",
+"release_date": "2018-04-09",
+"tracks": [
+{
+"id": "1M732H32aWAHYGDBOFU2br",
+"explicit": true,
+"name": "No Slow Money",
+"popularity": 60,
+"release_date": "2018-04-09"
+},
+{
+"id": "4VmcVEuTlYnWcc6QksaLyw",
+"explicit": true,
+"name": "Xotic",
+"popularity": 72,
+"release_date": "2018-04-09"
+},
+{
+"id": "5SGYanjZguKYg5PgVzFsvR",
+"explicit": true,
+"name": "Chek",
+"popularity": 73,
+"release_date": "2018-04-09"
+},
+{
+"id": "3UKEbmVZ1K1jwo1DoXmANL",
+"explicit": true,
+"name": "Light Show",
+"popularity": 60,
+"release_date": "2018-04-09"
+},
+{
+"id": "6ivIvKF3Sl5WmqO8o2Fr5x",
+"explicit": true,
+"name": "Warzone",
+"popularity": 62,
+"release_date": "2018-04-09"
+},
+{
+"id": "6bkSgfytOXAt8KvtAxLfe1",
+"explicit": true,
+"name": "Walk Thru",
+"popularity": 57,
+"release_date": "2018-04-09"
+},
+{
+"id": "4pY526gSQi6JshGXBZRUY0",
+"explicit": true,
+"name": "Showed You",
+"popularity": 60,
+"release_date": "2018-04-09"
+},
+{
+"id": "3QshO2od2T7hzANKWPTllf",
+"explicit": true,
+"name": "Bring it Out",
+"popularity": 63,
+"release_date": "2018-04-09"
+},
+{
+"id": "2tqPFzcsaYx479OFbNOo3P",
+"explicit": true,
+"name": "Code of Honor",
+"popularity": 60,
+"release_date": "2018-04-09"
+},
+{
+"id": "5lM9sz1JdxvppDlbwgGkg3",
+"explicit": true,
+"name": "Psychedelik Smoke",
+"popularity": 61,
+"release_date": "2018-04-09"
+},
+{
+"id": "5O8T8fzOzHp2wgeNu4Fn5p",
+"explicit": true,
+"name": "Fuk Faces",
+"popularity": 57,
+"release_date": "2018-04-09"
+}
+]
+},
+{
+"id": "2wmmYoAC48iNSTdU5Iwg6H",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/ac3ce0d485dd823360004fbc8f58b288e3e93037",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3bc341e9f63db46127e22811b8c8ab5fa00dbaca",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/b1b4ff855ea6766f8271cf8a27c8f00586380964",
+"width": 64
+}
+],
+"name": "TOTAL XANARCHY",
+"release_date": "2018-04-06",
+"tracks": [
+{
+"id": "74OX3VfCWPynzImQ2bH98U",
+"explicit": true,
+"name": "Who I Am",
+"popularity": 68,
+"release_date": "2018-04-06"
+},
+{
+"id": "4I6Q8Hmnibt5RslLTaIuUC",
+"explicit": true,
+"name": "Wake Up",
+"popularity": 66,
+"release_date": "2018-04-06"
+},
+{
+"id": "6t76I4kDJR6xGniXXS9iRS",
+"explicit": true,
+"name": "Tick Tock",
+"popularity": 65,
+"release_date": "2018-04-06"
+},
+{
+"id": "33x6PKa2BdKxQTicGAsTBD",
+"explicit": true,
+"name": "Diamonds",
+"popularity": 64,
+"release_date": "2018-04-06"
+},
+{
+"id": "1WRS3Ir5MlLASf7mQKO0xV",
+"explicit": true,
+"name": "The Man",
+"popularity": 65,
+"release_date": "2018-04-06"
+},
+{
+"id": "33sqo826sPntup9q2QUNrz",
+"explicit": true,
+"name": "Saved by the Bell",
+"popularity": 65,
+"release_date": "2018-04-06"
+},
+{
+"id": "2PSfFKZqZPCSPB0wKUxpsq",
+"explicit": true,
+"name": "Moonlight",
+"popularity": 71,
+"release_date": "2018-04-06"
+},
+{
+"id": "48mT0UnkDbUChRUEQBxHM9",
+"explicit": true,
+"name": "Shine Hard",
+"popularity": 70,
+"release_date": "2018-04-06"
+},
+{
+"id": "3EwXVz3LVcPJdcxKfKrfYD",
+"explicit": true,
+"name": "Round Here",
+"popularity": 64,
+"release_date": "2018-04-06"
+},
+{
+"id": "32jGVOsXgid86sX4jwdiCW",
+"explicit": true,
+"name": "Basically",
+"popularity": 65,
+"release_date": "2018-04-06"
+},
+{
+"id": "6WEPEIjee7KQYm3PlCc5F2",
+"explicit": true,
+"name": "Deceived",
+"popularity": 68,
+"release_date": "2018-04-06"
+},
+{
+"id": "4vaxvNDaLSoD36iZX515ug",
+"explicit": true,
+"name": "Betrayed",
+"popularity": 74,
+"release_date": "2018-04-06"
+},
+{
+"id": "5J3LR9JWrZIUTG7UGZkIKg",
+"explicit": true,
+"name": "Slingshot",
+"popularity": 67,
+"release_date": "2018-04-06"
+},
+{
+"id": "0zB9TK9f2z01xwlcJzKxfZ",
+"explicit": true,
+"name": "Far",
+"popularity": 65,
+"release_date": "2018-04-06"
+},
+{
+"id": "6uEg8AqPMXtRS0LYP1m3eK",
+"explicit": false,
+"name": "Color Blind",
+"popularity": 69,
+"release_date": "2018-04-06"
+},
+{
+"id": "63pZ0yZw6vBShuHe0kDba2",
+"explicit": true,
+"name": "Betrayed - Remix",
+"popularity": 65,
+"release_date": "2018-04-06"
+}
+]
+},
+{
+"id": "7GqtmPR8NcYUfvuEnyQYPH",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/80ebe44a71a3ad809e6b80d6d1cc44b0db73344c",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/5c7fae9678a6758ccea73f1bb1c47e0bc9ee25a3",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/546f408df74f4028ba5ef221f9ec686ecafe92b7",
+"width": 64
+}
+],
+"name": "The Pimpton LP",
+"release_date": "2018-03-30",
+"tracks": [
+{
+"id": "2jJ8Mv32R3hqyguGrjZ4Rh",
+"explicit": true,
+"name": "Back At It Again",
+"popularity": 20,
+"release_date": "2018-03-30"
+},
+{
+"id": "2ESh5YGtl4JMrsb2BhKf7C",
+"explicit": true,
+"name": "Fencin' (Switch Up)",
+"popularity": 17,
+"release_date": "2018-03-30"
+},
+{
+"id": "4WxEzMBvE2bADvioQxfXf7",
+"explicit": true,
+"name": "Nebuchadnezzar",
+"popularity": 16,
+"release_date": "2018-03-30"
+},
+{
+"id": "6J28PI93YgAewSrnMO0m2a",
+"explicit": true,
+"name": "Boppers",
+"popularity": 20,
+"release_date": "2018-03-30"
+},
+{
+"id": "0N1iwAhRu8Cgw6MciO3UAh",
+"explicit": true,
+"name": "Wouldn't Believe",
+"popularity": 14,
+"release_date": "2018-03-30"
+},
+{
+"id": "0pEyO2zuk5vEIvlLVWX6cR",
+"explicit": true,
+"name": "Zaps",
+"popularity": 22,
+"release_date": "2018-03-30"
+},
+{
+"id": "3iUAOMBk9shaeQCLWQswid",
+"explicit": true,
+"name": "Salmons",
+"popularity": 14,
+"release_date": "2018-03-30"
+},
+{
+"id": "2eWG8oJXac0tqN7BHhVoL9",
+"explicit": true,
+"name": "Emotional",
+"popularity": 46,
+"release_date": "2018-03-30"
+},
+{
+"id": "10QXMqan95Gt8eZ6ZICYVp",
+"explicit": true,
+"name": "Bad Lil Biddy",
+"popularity": 16,
+"release_date": "2018-03-30"
+},
+{
+"id": "2j4Fspsk93ZL2LrZkOmOQl",
+"explicit": true,
+"name": "She's My Time",
+"popularity": 13,
+"release_date": "2018-03-30"
+},
+{
+"id": "2hNtGenHkLs7CFEmduHbyM",
+"explicit": true,
+"name": "Stella",
+"popularity": 12,
+"release_date": "2018-03-30"
+},
+{
+"id": "1nt5Y2V5kjwHfjyYS7jtKZ",
+"explicit": true,
+"name": "Zestin",
+"popularity": 12,
+"release_date": "2018-03-30"
+},
+{
+"id": "29iV4eFz8wDjCWnMiGoBH3",
+"explicit": true,
+"name": "Howling",
+"popularity": 12,
+"release_date": "2018-03-30"
+},
+{
+"id": "39qtOU6p3RKkEDGoCyIAXb",
+"explicit": true,
+"name": "Tip The Waiter",
+"popularity": 12,
+"release_date": "2018-03-30"
+},
+{
+"id": "72xMibOH4m7AFo5KhwGg6I",
+"explicit": true,
+"name": "Of Course",
+"popularity": 11,
+"release_date": "2018-03-30"
+},
+{
+"id": "5qF6dUc2wRDNENy9V2nEV6",
+"explicit": true,
+"name": "Keep It Secret",
+"popularity": 10,
+"release_date": "2018-03-30"
+},
+{
+"id": "7nX1AEcVsyWF15EF4QobH5",
+"explicit": true,
+"name": "Get It Right Now",
+"popularity": 10,
+"release_date": "2018-03-30"
+},
+{
+"id": "3SXSDvJQPYOecWBoDFEkgh",
+"explicit": true,
+"name": "Hometown Heroes",
+"popularity": 13,
+"release_date": "2018-03-30"
+}
+]
+},
+{
+"id": "1q8HDPyf02k8fKQHygH3Ik",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/04e0081d7103d9c3dbdb8106384608fa05429c10",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/0ea858249d7a6cc195ad53b14e6f4b3bef762366",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/1be891b0a854e4598d56a418940da2dc0445b904",
+"width": 64
+}
+],
+"name": "Next (Paul Sonoria Remix)",
+"release_date": "2018-03-28",
+"tracks": [
+{
+"id": "0Y5GeMu1beXU80sUsRoT1x",
+"explicit": true,
+"name": "Next (Paul Sonoria Remix)",
+"popularity": 31,
+"release_date": "2018-03-28"
+}
+]
+},
+{
+"id": "0VXR3HSaSuA1Vunj06a4Vn",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/ddfcabf27b2ea868b1cae4559efd607d46578cc2",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/5a8f13b9536ab7c0f04aea3f1dfe0e2c89e4e450",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/1bc0b3e8a2c063f73c004c7e8a9d513a599a9da7",
+"width": 64
+}
+],
+"name": "Creeping (feat. Rich the Kid)",
+"release_date": "2018-03-23",
+"tracks": [
+{
+"id": "7ms3VzLTfr7fXNOqA4Mkx9",
+"explicit": true,
+"name": "Creeping (feat. Rich the Kid)",
+"popularity": 81,
+"release_date": "2018-03-23"
+}
+]
+},
+{
+"id": "1nxTQiOpMAXoPCP2BMhPnT",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/e3721487fe84eee6f42595d73c5c63192bb726f4",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3421f31ba1f7c8b95612c07839dd6a3b905f7f19",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/9b70af1c13449b159d42cb32d9ac131896bfa55b",
+"width": 64
+}
+],
+"name": "MJ",
+"release_date": "2018-03-17",
+"tracks": [
+{
+"id": "1mh93eksh57fJJF3TsY7Uo",
+"explicit": true,
+"name": "MJ",
+"popularity": 13,
+"release_date": "2018-03-17"
+}
+]
+},
+{
+"id": "22m2MKY9TchfJiUC0q9S5a",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/63b3be58830425e054aa81dbc328b8742c6c4b9f",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/7c3e621fc703f9f25419f430c649a8682891d9af",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/4eda45a5338c3ab453393738861a089f66debe71",
+"width": 64
+}
+],
+"name": "Bands (Remix) [feat. Rich The Kid]",
+"release_date": "2018-03-16",
+"tracks": [
+{
+"id": "4OpyLeKDOIuiX39WA4mQMR",
+"explicit": true,
+"name": "Bands (Remix) (feat. Rich The Kid)",
+"popularity": 62,
+"release_date": "2018-03-16"
+}
+]
+},
+{
+"id": "5onIGK40zEYSTcTWjlYv8s",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/f2fa6fa6cbeefda3380211cdb4e224a54d3fffed",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/83229d78f09eb4317b4b2bc70612551c7c390f10",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/51cf84f6cbfdfe371b24e9dfe1b22a174a1ab2fc",
+"width": 64
+}
+],
+"name": "Easter Pink (Remix)",
+"release_date": "2018-03-16",
+"tracks": [
+{
+"id": "6hczixHKwZbtNjWyvyfKLz",
+"explicit": true,
+"name": "Easter Pink (Remix)",
+"popularity": 7,
+"release_date": "2018-03-16"
+}
+]
+},
+{
+"id": "7yL1L6PWcyo0W82oT99zwh",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/4df84cf8eb98f9574c2d1591f594ab2b669ef1f8",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/10e82f5bc95d135ac1135926ec45669025a6f1ac",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/212a6f92ab1e4823a68760d513607b39ab95a943",
+"width": 64
+}
+],
+"name": "Watch The Drip",
+"release_date": "2018-03-14",
+"tracks": [
+{
+"id": "145bjKCeJadf68qhXgg1vX",
+"explicit": true,
+"name": "New Wave",
+"popularity": 22,
+"release_date": "2018-03-14"
+},
+{
+"id": "2z6xAkeD1O6EmixxuhIuot",
+"explicit": true,
+"name": "5 O'Clock In The Morning (feat. Jay Critch)",
+"popularity": 31,
+"release_date": "2018-03-14"
+},
+{
+"id": "7DpjTAWAh6Sa8Tp8MiuUfN",
+"explicit": true,
+"name": "Drippin",
+"popularity": 26,
+"release_date": "2018-03-14"
+},
+{
+"id": "4dIvNcBHT87XSnv605cMnu",
+"explicit": true,
+"name": "Now I Can Flex",
+"popularity": 19,
+"release_date": "2018-03-14"
+},
+{
+"id": "5DcY69L3nC6xmIyKfLAWSn",
+"explicit": true,
+"name": "Purp",
+"popularity": 19,
+"release_date": "2018-03-14"
+},
+{
+"id": "0w8WlQV6Az8Z6kxlIu7mei",
+"explicit": true,
+"name": "Bands (feat. Rich The Kid)",
+"popularity": 28,
+"release_date": "2018-03-14"
+},
+{
+"id": "4kjZ0i6btDPiBgkJ6dY1C4",
+"explicit": true,
+"name": "Racks Up",
+"popularity": 18,
+"release_date": "2018-03-14"
+},
+{
+"id": "2dCkDktZyFoMlHRZbGCPFO",
+"explicit": true,
+"name": "No Discussion",
+"popularity": 25,
+"release_date": "2018-03-14"
+},
+{
+"id": "6hhi2c3WwSlXkBgtyLmdLq",
+"explicit": true,
+"name": "Whip",
+"popularity": 18,
+"release_date": "2018-03-14"
+}
+]
+},
+{
+"id": "4dOIh5a2ag3wEiQTnVfzAN",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/f919be3079e805f157cd3f4cb44fd2bd79e02177",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/bbcc6f58aeee5c9d6d72ca9a0cc76de01243dc79",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/17ffd117fd1daf3e254e3acb43e1346c35f2ed60",
+"width": 64
+}
+],
+"name": "McFlurry",
+"release_date": "2018-03-13",
+"tracks": [
+{
+"id": "5hQ6k78vTcVqrb92tyEWh6",
+"explicit": true,
+"name": "McFlurry",
+"popularity": 26,
+"release_date": "2018-03-13"
+}
+]
+},
+{
+"id": "5uJgX2C1WBza9J5tDRwRe5",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/599e309b48f136d997300ed92829d238274c8ac6",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/40a93487cf290b08e71c6af25ac56dbb9ac96056",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/c4b97d640d18e2ea3a39bc1a820471759445912e",
+"width": 64
+}
+],
+"name": "Brand New",
+"release_date": "2018-03-09",
+"tracks": [
+{
+"id": "2qfUBZqguBSg0b4VceLVqy",
+"explicit": true,
+"name": "Brand New",
+"popularity": 5,
+"release_date": "2018-03-09"
+}
+]
+},
+{
+"id": "1LqG9XoKYgfAIXqJvzZLDu",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/370d30dbaedf082f4107ce406b5120ade382f5f6",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/9569fbf69e6e80bdba47e112409c4af9be77f2d8",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/464be71be89301ef100acaa12f569e60d24f61f5",
+"width": 64
+}
+],
+"name": "Fabo (featuring Rich The Kid) [Remix]",
+"release_date": "2018-03-02",
+"tracks": [
+{
+"id": "0LhULWY8i45QBQMDYDkPhn",
+"explicit": true,
+"name": "Fabo (featuring Rich The Kid) - Remix",
+"popularity": 49,
+"release_date": "2018-03-02"
+}
+]
+},
+{
+"id": "5SHSl5e1Jc2kD5Fu18g7Vw",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/001eb5c372a850d402195c5d7c2b1b06712c37ae",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/c130a56e4ce2a8231acd495b5980e6c1fd7ae052",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/4ac863c2f6454780d42efabc9ed3422e913dba07",
+"width": 64
+}
+],
+"name": "Prada Outer Space",
+"release_date": "2018-03-02",
+"tracks": [
+{
+"id": "26UvHokbEmU0E0vYZLImtb",
+"explicit": true,
+"name": "Lightwork",
+"popularity": 12,
+"release_date": "2018-03-02"
+},
+{
+"id": "3MKOTChpkLerc58K1QqUD2",
+"explicit": true,
+"name": "Drop",
+"popularity": 12,
+"release_date": "2018-03-02"
+},
+{
+"id": "729AskZRGUeq1WG5cats2s",
+"explicit": true,
+"name": "Fendi (feat. Rich the Kid)",
+"popularity": 31,
+"release_date": "2018-03-02"
+},
+{
+"id": "0F1ItLVvhEkPAPRW995u5T",
+"explicit": true,
+"name": "Prada Outer Space",
+"popularity": 13,
+"release_date": "2018-03-02"
+},
+{
+"id": "7xSk4a0VgOIGU3Nfi0hVec",
+"explicit": true,
+"name": "Your Number (feat. Jdecks)",
+"popularity": 9,
+"release_date": "2018-03-02"
+},
+{
+"id": "0u2HVJwVIB0eQbZGBpbyJI",
+"explicit": true,
+"name": "Flip the Pack",
+"popularity": 8,
+"release_date": "2018-03-02"
+},
+{
+"id": "05u6yZsWbWgpELrbC8wC8n",
+"explicit": true,
+"name": "3 Days",
+"popularity": 10,
+"release_date": "2018-03-02"
+}
+]
+},
+{
+"id": "5kthyXj3UlzHWwlkWJ4VfB",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/0cde4e863a37d2449b86b0e41caf1d36493ba960",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/94ebadd57ee63ec204fefa19017fe90c355cddff",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/165d7c21c21a6e6bed7e437ea5b6a8887b0e258b",
+"width": 64
+}
+],
+"name": "My Brother and Me 2",
+"release_date": "2018-02-12",
+"tracks": [
+{
+"id": "6ab0tLSRhqvUuH7ifdbKr2",
+"explicit": true,
+"name": "My Brother and Me Intro (feat. Rich the Kid)",
+"popularity": 27,
+"release_date": "2018-02-12"
+},
+{
+"id": "2mRS31VwIN9cUznxwOAaJj",
+"explicit": true,
+"name": "No Time",
+"popularity": 10,
+"release_date": "2018-02-12"
+},
+{
+"id": "3W31wLO9MHpmcSsxusQBwI",
+"explicit": true,
+"name": "My Own",
+"popularity": 15,
+"release_date": "2018-02-12"
+},
+{
+"id": "6AqiDKapXYCX0DR2V7Mzhg",
+"explicit": true,
+"name": "Medusa",
+"popularity": 8,
+"release_date": "2018-02-12"
+},
+{
+"id": "3DH9bE5yMjc8hGPTmcbqfu",
+"explicit": true,
+"name": "Everyday",
+"popularity": 8,
+"release_date": "2018-02-12"
+},
+{
+"id": "3HK50zv1mYXCgt45WJSyX9",
+"explicit": true,
+"name": "Bluestrips",
+"popularity": 10,
+"release_date": "2018-02-12"
+},
+{
+"id": "1znV0wDeQv651rquGp8w3N",
+"explicit": true,
+"name": "Come Alive",
+"popularity": 8,
+"release_date": "2018-02-12"
+},
+{
+"id": "3nUsKnIbUqS687tDs7apqB",
+"explicit": true,
+"name": "Paid in Full (feat. Jay Critch)",
+"popularity": 15,
+"release_date": "2018-02-12"
+},
+{
+"id": "0Nwg2GSY5o1wYmYhbnHows",
+"explicit": true,
+"name": "Rns",
+"popularity": 6,
+"release_date": "2018-02-12"
+},
+{
+"id": "0hGBVKf8HKSpBibhC7Bbtt",
+"explicit": true,
+"name": "Selavi (feat. Jay Critch)",
+"popularity": 21,
+"release_date": "2018-02-12"
+},
+{
+"id": "2s2zdaoBr9w9KZPeSoMOzk",
+"explicit": true,
+"name": "Doin Me",
+"popularity": 7,
+"release_date": "2018-02-12"
+},
+{
+"id": "6re3OQvhDdzQ0RAaZ4UsUW",
+"explicit": true,
+"name": "Trust Nobody (feat. Thrillz)",
+"popularity": 14,
+"release_date": "2018-02-12"
+}
+]
+},
+{
+"id": "2TvKY5nBH5SQUt03EImut4",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/1bd7cbc09c76605ee5530350edeade2ff8b17eb3",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/8ca4d39ade4059a6fa3501f4a398ee7b4ad733b0",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/e29bc56f065fd1fcfecc71809a61aa0b52643f90",
+"width": 64
+}
+],
+"name": "Don't Wanna Be Alone (feat. Rich The Kid)",
+"release_date": "2018-02-02",
+"tracks": [
+{
+"id": "4i5ipg43isDtAzwS1HUWei",
+"explicit": true,
+"name": "Don't Wanna Be Alone (feat. Rich The Kid)",
+"popularity": 35,
+"release_date": "2018-02-02"
+},
+{
+"id": "3xBoVZjaxWOAmleK14J1Fy",
+"explicit": false,
+"name": "Don't Wanna Be Alone (feat. Rich The Kid)",
+"popularity": 27,
+"release_date": "2018-02-02"
+}
+]
+},
+{
+"id": "1skj7HciF16YQNJnsSG2KD",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/95778594f1daead224b640de1ce6fdfcbb9a4bc6",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/395ecc88aaf0a7fff60453d8a66f5cefc61f5a8a",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/a89093ae355698c1c19731dbfbb29a37ec0254a0",
+"width": 64
+}
+],
+"name": "Keep It 100",
+"release_date": "2018-01-30",
+"tracks": [
+{
+"id": "1GbpvKyq16hsAiauRM19jZ",
+"explicit": true,
+"name": "Keep It 100",
+"popularity": 7,
+"release_date": "2018-01-30"
+}
+]
+},
+{
+"id": "5OyFZoGzkyE4B6vLShdhCB",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/7f1a6c4f58a33a2dfe3f8fb956987521f997f8b9",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/5ae54ef212cb61d2694fb9dbb09893a547820348",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/0e83ef1cc7fa90fe124e43315a52724b9f5cfe06",
+"width": 64
+}
+],
+"name": "Actavis",
+"release_date": "2018-01-25",
+"tracks": [
+{
+"id": "1IPbwRpxpzt5OWtoyiqFDf",
+"explicit": true,
+"name": "Low Niggas",
+"popularity": 11,
+"release_date": "2018-01-25"
+},
+{
+"id": "0GAAzmiTZB2Yv4Mvere658",
+"explicit": true,
+"name": "Rack-Pack",
+"popularity": 8,
+"release_date": "2018-01-25"
+},
+{
+"id": "4YWdoXz9DHZMbaKwipgIui",
+"explicit": true,
+"name": "Moonwalk",
+"popularity": 16,
+"release_date": "2018-01-25"
+},
+{
+"id": "5cBZkR969n7zRr8VQvoTrT",
+"explicit": true,
+"name": "Rookie",
+"popularity": 12,
+"release_date": "2018-01-25"
+},
+{
+"id": "129G3TPaKzRSZ2qUEojI2B",
+"explicit": true,
+"name": "Turbulence",
+"popularity": 22,
+"release_date": "2018-01-25"
+},
+{
+"id": "74NUldfoaKrm34YaDvLqBc",
+"explicit": true,
+"name": "Presidents",
+"popularity": 6,
+"release_date": "2018-01-25"
+},
+{
+"id": "2g51Q68VsnZAFowOfSonlt",
+"explicit": true,
+"name": "3 Cup",
+"popularity": 6,
+"release_date": "2018-01-25"
+},
+{
+"id": "2eCXjTNJPVS6qzfqRdlBcu",
+"explicit": true,
+"name": "Pill",
+"popularity": 6,
+"release_date": "2018-01-25"
+},
+{
+"id": "5XtIUqXbWiKRaGAROuCKQv",
+"explicit": true,
+"name": "Beamer",
+"popularity": 8,
+"release_date": "2018-01-25"
+},
+{
+"id": "2Xn1Q3T8NpyEAEuqxC4xxn",
+"explicit": true,
+"name": "Lose It All",
+"popularity": 6,
+"release_date": "2018-01-25"
+},
+{
+"id": "1XtQBcgm7A0Mmk2HpuSCH6",
+"explicit": true,
+"name": "C.I.A",
+"popularity": 4,
+"release_date": "2018-01-25"
+},
+{
+"id": "2CwvFuvgIvN8viC5CdLaJP",
+"explicit": true,
+"name": "Why You",
+"popularity": 4,
+"release_date": "2018-01-25"
+},
+{
+"id": "4Zh3XBKtQ9TgPhUrkkjsaN",
+"explicit": true,
+"name": "Problems",
+"popularity": 9,
+"release_date": "2018-01-25"
+},
+{
+"id": "6WI7ZlAxsIwxFwNvvJu2BN",
+"explicit": true,
+"name": "6 o'clock",
+"popularity": 4,
+"release_date": "2018-01-25"
+},
+{
+"id": "7DbfJVv1LJJZVnZNg7GZSs",
+"explicit": true,
+"name": "Self Made",
+"popularity": 19,
+"release_date": "2018-01-25"
+},
+{
+"id": "6ARZT0VXSUaXpzlDhcpodb",
+"explicit": true,
+"name": "Wockhardt",
+"popularity": 5,
+"release_date": "2018-01-25"
+},
+{
+"id": "4FDnEyXtTmyA1QxFFRnxcF",
+"explicit": true,
+"name": "Outro",
+"popularity": 3,
+"release_date": "2018-01-25"
+}
+]
+},
+{
+"id": "0qhEZJ7mN6hxge817VSkSt",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/e58f0b1ae8d3e5d16977f49b5b8394acb3431840",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/78dae320f01837f67d781d4292e0ccfc175779f4",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/3937cb5555c1a3c3ae3ebaf65abb871974d48389",
+"width": 64
+}
+],
+"name": "Rockstar (International Version)",
+"release_date": "2018-01-19",
+"tracks": [
+{
+"id": "14Ji9oE887lKQx7NtMnwXV",
+"explicit": true,
+"name": "Rockstar",
+"popularity": 61,
+"release_date": "2018-01-19"
+},
+{
+"id": "10EFwIzj57tG2dqgqgGj1J",
+"explicit": true,
+"name": "Serpenti A Sonagli",
+"popularity": 60,
+"release_date": "2018-01-19"
+},
+{
+"id": "7bklDXyWkNYQi6tBXvf9Wo",
+"explicit": true,
+"name": "Cupido (feat. Quavo)",
+"popularity": 63,
+"release_date": "2018-01-19"
+},
+{
+"id": "5mvtA7YwZ2JvHkHGkWsKfy",
+"explicit": true,
+"name": "XNX",
+"popularity": 55,
+"release_date": "2018-01-19"
+},
+{
+"id": "0FS2PFIIP9URAzX5WrXr50",
+"explicit": true,
+"name": "Ricchi x Sempre",
+"popularity": 60,
+"release_date": "2018-01-19"
+},
+{
+"id": "5teCVd6Ve2Vy9HouB8sXRw",
+"explicit": true,
+"name": "Uber (feat. Miami Yacine)",
+"popularity": 62,
+"release_date": "2018-01-19"
+},
+{
+"id": "57xfSYWj2h9GKgRtKGzlOR",
+"explicit": true,
+"name": "Leggenda",
+"popularity": 56,
+"release_date": "2018-01-19"
+},
+{
+"id": "1oYLuFZx4u3qm6K8CT2B80",
+"explicit": true,
+"name": "Bancomat (feat. Tinie Tempah)",
+"popularity": 58,
+"release_date": "2018-01-19"
+},
+{
+"id": "4RgmBdsVc2CbVJk8UUOhmJ",
+"explicit": true,
+"name": "Sciroppo (feat. DrefGold)",
+"popularity": 63,
+"release_date": "2018-01-19"
+},
+{
+"id": "3cPHMwKjSnmRofGTsLe4cS",
+"explicit": true,
+"name": "20 Collane (feat. Rich The Kid)",
+"popularity": 58,
+"release_date": "2018-01-19"
+},
+{
+"id": "1aXNr4bpPakzNmolWwLNCF",
+"explicit": true,
+"name": "Tran Tran (feat. Lary Over)",
+"popularity": 58,
+"release_date": "2018-01-19"
+}
+]
+},
+{
+"id": "7vO7syBfMRG6RIGt6nstRk",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/fc5e31a82ecb5643d601462d8952186c5f1c3fe0",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/dcf57fb2447594e18dc35f57c4f053ce9a3416c1",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/1b6f4693898f7367b02374d1309d2929560b6523",
+"width": 64
+}
+],
+"name": "Addictions",
+"release_date": "2018-01-17",
+"tracks": [
+{
+"id": "67BJZyMG87PoFRgsvDKiuN",
+"explicit": true,
+"name": "Intro",
+"popularity": 1,
+"release_date": "2018-01-17"
+},
+{
+"id": "7vgUWqje2ude4ZVXPMIEDb",
+"explicit": true,
+"name": "Got It Back",
+"popularity": 1,
+"release_date": "2018-01-17"
+},
+{
+"id": "1ubBezo5s5YvQwi5nxytVu",
+"explicit": true,
+"name": "When I'm in It",
+"popularity": 1,
+"release_date": "2018-01-17"
+},
+{
+"id": "0iO8eeNar42sPpV42zk3pM",
+"explicit": true,
+"name": "Shorty Wit the 40",
+"popularity": 1,
+"release_date": "2018-01-17"
+},
+{
+"id": "0wmXoTppjzj2u61Pc1YhVA",
+"explicit": true,
+"name": "Karaoke Bar",
+"popularity": 1,
+"release_date": "2018-01-17"
+},
+{
+"id": "2aXBX07xTVQTehM70RUJKu",
+"explicit": true,
+"name": "In My Zone",
+"popularity": 3,
+"release_date": "2018-01-17"
+},
+{
+"id": "63B0pR0acCWlI6vOcrZASV",
+"explicit": true,
+"name": "Flexer of the Year",
+"popularity": 15,
+"release_date": "2018-01-17"
+},
+{
+"id": "3sQKVZ8iUcz62QIFPzqb3A",
+"explicit": true,
+"name": "Secret",
+"popularity": 0,
+"release_date": "2018-01-17"
+},
+{
+"id": "2QyIhV7kG7me0wpLkjj4nC",
+"explicit": true,
+"name": "Henny Straight",
+"popularity": 1,
+"release_date": "2018-01-17"
+},
+{
+"id": "5s0VppLM5xJcrTlZlqbA0c",
+"explicit": true,
+"name": "Diamonds Dance",
+"popularity": 1,
+"release_date": "2018-01-17"
+}
+]
+},
+{
+"id": "5x6dHRQLWwt5tbs3KygHPv",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/47696c1f959fb7a617968a3ec19cd3db55ec98e7",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/43b6645014e8f63481085574f13f45d4b1597e56",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/81e502da774f38ed234c3e5b5b410d174e03595c",
+"width": 64
+}
+],
+"name": "Another Chapter",
+"release_date": "2018-01-12",
+"tracks": [
+{
+"id": "74QoTAEROXrd7l6IBNWz3L",
+"explicit": true,
+"name": "Another Chapter",
+"popularity": 8,
+"release_date": "2018-01-12"
+},
+{
+"id": "1wylsZyVQcPY3jEdV2zcrU",
+"explicit": true,
+"name": "Bullshit",
+"popularity": 12,
+"release_date": "2018-01-12"
+},
+{
+"id": "1GvNt43zvkLxe6QVTJ5OEu",
+"explicit": true,
+"name": "For da Cash",
+"popularity": 10,
+"release_date": "2018-01-12"
+},
+{
+"id": "0mEjxF677PtUEC6Ospli0X",
+"explicit": true,
+"name": "No Puppy Love",
+"popularity": 8,
+"release_date": "2018-01-12"
+},
+{
+"id": "2cBwW77uvbPp2wrWPU5hqw",
+"explicit": true,
+"name": "Discrete",
+"popularity": 13,
+"release_date": "2018-01-12"
+},
+{
+"id": "7lk39HNmSgUP7j7VUHyN0V",
+"explicit": true,
+"name": "Dna",
+"popularity": 11,
+"release_date": "2018-01-12"
+},
+{
+"id": "0cD0NoOIwFlF5scvNM7kzO",
+"explicit": true,
+"name": "3 Bad Bitches (feat. Travis Porter)",
+"popularity": 8,
+"release_date": "2018-01-12"
+},
+{
+"id": "5m8CXFgDJcicw3mAyDKWNC",
+"explicit": true,
+"name": "No Pad No Pencil",
+"popularity": 9,
+"release_date": "2018-01-12"
+},
+{
+"id": "0kQ1U051jnemGtDIBMZ6wL",
+"explicit": true,
+"name": "Compare",
+"popularity": 9,
+"release_date": "2018-01-12"
+},
+{
+"id": "2EpACy0dyOKWBIp090ioEm",
+"explicit": true,
+"name": "Five on It",
+"popularity": 7,
+"release_date": "2018-01-12"
+},
+{
+"id": "1nrTSXyjHqlZXMy5j37tiC",
+"explicit": true,
+"name": "Pearly Gates",
+"popularity": 9,
+"release_date": "2018-01-12"
+},
+{
+"id": "6Vi6jIGqWbEzV2rQMwa0Bb",
+"explicit": true,
+"name": "Miss My Dawgs (Meek Mill) [feat. Strap da Fool]",
+"popularity": 27,
+"release_date": "2018-01-12"
+},
+{
+"id": "5cVldgOKJG9SrlGcg5fBtu",
+"explicit": true,
+"name": "Thoughts Together",
+"popularity": 9,
+"release_date": "2018-01-12"
+},
+{
+"id": "2PPfldw7PnkNYXNvd7N2j4",
+"explicit": true,
+"name": "Fuck It (feat. Rich the Kid)",
+"popularity": 17,
+"release_date": "2018-01-12"
+},
+{
+"id": "6twWnQoFfDDQeFbGINehPR",
+"explicit": true,
+"name": "Heart & Soul",
+"popularity": 6,
+"release_date": "2018-01-12"
+},
+{
+"id": "6TPBoRRL4Xlpfl2JqEbcRD",
+"explicit": true,
+"name": "Hold Me Down (feat. Tk Kravitz)",
+"popularity": 9,
+"release_date": "2018-01-12"
+},
+{
+"id": "5yjlYMm1An7n1XWooZkGa3",
+"explicit": true,
+"name": "Rara",
+"popularity": 6,
+"release_date": "2018-01-12"
+},
+{
+"id": "3lZLKUF6Y9kARumBqjeVHl",
+"explicit": true,
+"name": "Big Racks (Remix) [feat. 24 Hours]",
+"popularity": 8,
+"release_date": "2018-01-12"
+},
+{
+"id": "1LRl2ONVEY7goneA64M3re",
+"explicit": true,
+"name": "Phone Ringing",
+"popularity": 4,
+"release_date": "2018-01-12"
+},
+{
+"id": "33Rjy1h2JT7hkbztdtCl54",
+"explicit": true,
+"name": "Kill the Scene",
+"popularity": 5,
+"release_date": "2018-01-12"
+}
+]
+},
+{
+"id": "74Q3fqCD65FaQOar8CgNVQ",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/4578b31fca169f333590cbbc4d060511f800828a",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/ba5ad12e0e350a6ad4b236eb71ab71b25011eede",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/1ce3c4fc8f4f11fa8526f58266c854e734cf1753",
+"width": 64
+}
+],
+"name": "Hood Hero",
+"release_date": "2018-01-11",
+"tracks": [
+{
+"id": "0L25tlxJatQh5EvgIaUXoa",
+"explicit": true,
+"name": "Avalanche",
+"popularity": 7,
+"release_date": "2018-01-11"
+},
+{
+"id": "53lxZqYkJfTgfjm7iqxxGN",
+"explicit": true,
+"name": "Hood Hero Intro",
+"popularity": 0,
+"release_date": "2018-01-11"
+},
+{
+"id": "4UQsI2AQ69ifByQJdBTLPJ",
+"explicit": true,
+"name": "Trap House (feat. Trap Frost & Young Scooter)",
+"popularity": 24,
+"release_date": "2018-01-11"
+},
+{
+"id": "3M0XkIHPcuqP0kPcG6UGoH",
+"explicit": true,
+"name": "Secure the Bag",
+"popularity": 9,
+"release_date": "2018-01-11"
+},
+{
+"id": "68QcjhtMjUu1ubAW4oPMSG",
+"explicit": true,
+"name": "Usian Bolt (feat. Lil Baby, Kash Doll & Trap Frost)",
+"popularity": 16,
+"release_date": "2018-01-11"
+},
+{
+"id": "4nOlcyHx6tpGiQyWqHaW0Q",
+"explicit": true,
+"name": "Twerk Work (feat. 21 Savage & Trap Frost)",
+"popularity": 28,
+"release_date": "2018-01-11"
+},
+{
+"id": "2RpOklHT1xcLAby2XWnpfi",
+"explicit": true,
+"name": "Super Bih",
+"popularity": 9,
+"release_date": "2018-01-11"
+},
+{
+"id": "5DkW6QE8Lb1PTG08soUk77",
+"explicit": true,
+"name": "Dab Right Now",
+"popularity": 3,
+"release_date": "2018-01-11"
+},
+{
+"id": "53ocEavncO6RwrqsFFJihf",
+"explicit": true,
+"name": "Space Breeze",
+"popularity": 3,
+"release_date": "2018-01-11"
+},
+{
+"id": "6mdO9R0CtLedRLShggUUPC",
+"explicit": true,
+"name": "Move Around",
+"popularity": 4,
+"release_date": "2018-01-11"
+},
+{
+"id": "2sXZQHDLCMe6STEAKDm9U1",
+"explicit": true,
+"name": "No Question (feat. Trouble & R.T.C.U Fatz)",
+"popularity": 3,
+"release_date": "2018-01-11"
+},
+{
+"id": "0og4tWIxFO1v2mKDOp6R5c",
+"explicit": true,
+"name": "Time (feat. Big Krit)",
+"popularity": 6,
+"release_date": "2018-01-11"
+},
+{
+"id": "6mbSP12XUqsKKgCNAgX7gI",
+"explicit": true,
+"name": "250,000 (Bonus Track) [feat. Rich the Kid & Project Pat]",
+"popularity": 13,
+"release_date": "2018-01-11"
+}
+]
+},
+{
+"id": "6kewtqyBU1PZs2UE8prTMa",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/c884b606c070c7b38e18d8162ddcda0bea464f81",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/35a9c9f167ff99078429cde0c2323302c6ad6c7f",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/9166ff14bcc9ce7e462d1a64e6c84c9f89c9233e",
+"width": 64
+}
+],
+"name": "Chopsticks (Remix)",
+"release_date": "2018-01-05",
+"tracks": [
+{
+"id": "57m2NzS9mhovT0GoPocq5h",
+"explicit": true,
+"name": "Chopsticks (Remix)",
+"popularity": 55,
+"release_date": "2018-01-05"
+}
+]
+},
+{
+"id": "0FY5WbWOgiJwt95EIuGTxg",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/17d636936f627648ebfca2d136924f63ad2db105",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/a25f14604709fe37e19beced7a0c5c9c816a5b02",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/9659e6bcd3b88b35848aa51d9a8d2b6f38b7caed",
+"width": 64
+}
+],
+"name": "Bandz (feat. Mally Bandz & Rich The Kid)",
+"release_date": "2018-01-02",
+"tracks": [
+{
+"id": "3on410BCCyn43gCbcaYMNT",
+"explicit": true,
+"name": "Bandz (feat. Mally Bandz & Rich The Kid)",
+"popularity": 18,
+"release_date": "2018-01-02"
+}
+]
+},
+{
+"id": "3g9pu1Y044zClqznT0oOHH",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/d72b6f4df27ed07bdaa2d52138619b8a77f28ab3",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3d2f2823e963921119fa8a9db2d37e12fc3d963a",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/9eeafa35ceceed47b5d8eef3d42d55180aa91d9c",
+"width": 64
+}
+],
+"name": "Street Kid",
+"release_date": "2018-01-01",
+"tracks": [
+{
+"id": "0BMVLLL525wvwgU1YFV96H",
+"explicit": true,
+"name": "Sorry Mama",
+"popularity": 6,
+"release_date": "2018-01-01"
+},
+{
+"id": "1FPivr0MrAWhrue9eg02dO",
+"explicit": true,
+"name": "Lay Up",
+"popularity": 4,
+"release_date": "2018-01-01"
+},
+{
+"id": "0AUtPYKjXB8PR760smU7Qw",
+"explicit": true,
+"name": "Bonju",
+"popularity": 7,
+"release_date": "2018-01-01"
+},
+{
+"id": "0nN82JwI90KajTX2MQyX2W",
+"explicit": true,
+"name": "Nothin' like Them",
+"popularity": 3,
+"release_date": "2018-01-01"
+},
+{
+"id": "0fuBhFQgNgqBoXelVdRUIQ",
+"explicit": true,
+"name": "Sc to Cali",
+"popularity": 4,
+"release_date": "2018-01-01"
+},
+{
+"id": "1kaNsiBCoUkedyUBYvddxd",
+"explicit": true,
+"name": "Don't Feel Normal",
+"popularity": 3,
+"release_date": "2018-01-01"
+},
+{
+"id": "6t0iQniVL0cJgis4Kp5neL",
+"explicit": true,
+"name": "Please Don't Waste My Time",
+"popularity": 3,
+"release_date": "2018-01-01"
+},
+{
+"id": "6GZLcmVgiobKbeZGkoGye6",
+"explicit": true,
+"name": "Run It Back (feat. Oj da Juiceman)",
+"popularity": 6,
+"release_date": "2018-01-01"
+},
+{
+"id": "50mc2ShO0kpJykPXTxtSm0",
+"explicit": true,
+"name": "Demion Child (feat. Tick)",
+"popularity": 6,
+"release_date": "2018-01-01"
+},
+{
+"id": "7yddJ7qzmVqwFiE0xBSjaR",
+"explicit": true,
+"name": "Without Me (feat. Trapmansion Key)",
+"popularity": 2,
+"release_date": "2018-01-01"
+},
+{
+"id": "1Hagxa9ujJZ508Ve0dB9Ci",
+"explicit": true,
+"name": "China Hut",
+"popularity": 4,
+"release_date": "2018-01-01"
+},
+{
+"id": "5sqvbJbRyD8eW24LWj4o0q",
+"explicit": true,
+"name": "Put Ya on (feat. GreenBoi)",
+"popularity": 3,
+"release_date": "2018-01-01"
+},
+{
+"id": "7IwpDol8csht47mNfcWbPt",
+"explicit": true,
+"name": "Og (feat. Lil Baby)",
+"popularity": 7,
+"release_date": "2018-01-01"
+},
+{
+"id": "4l5GtsOMtEGGo47f5YqH5x",
+"explicit": true,
+"name": "Xanax I'm Sleeping",
+"popularity": 2,
+"release_date": "2018-01-01"
+},
+{
+"id": "1zug0RTcpB1u6wwYLJLO9P",
+"explicit": true,
+"name": "Another Xanax",
+"popularity": 3,
+"release_date": "2018-01-01"
+},
+{
+"id": "34sIc9AtWJsxzmProFOocW",
+"explicit": true,
+"name": "Knock Knock",
+"popularity": 2,
+"release_date": "2018-01-01"
+},
+{
+"id": "5axbKD7FmHAZ8Zen4ahUQ6",
+"explicit": true,
+"name": "Dream Chasing",
+"popularity": 2,
+"release_date": "2018-01-01"
+},
+{
+"id": "3NzBuYxMY4UmYCvfxIUaD5",
+"explicit": true,
+"name": "Feel Me",
+"popularity": 2,
+"release_date": "2018-01-01"
+},
+{
+"id": "1oJKLJULjHnfAQ5S0oP2tt",
+"explicit": true,
+"name": "Matching Tattoos",
+"popularity": 2,
+"release_date": "2018-01-01"
+},
+{
+"id": "5mi1UbugyMFcBiNuSakjMD",
+"explicit": true,
+"name": "Ricky",
+"popularity": 3,
+"release_date": "2018-01-01"
+}
+]
+}
+]
+},
+"7z5WFjZAIYejWy0NI5lv4T": {
+"id": "7z5WFjZAIYejWy0NI5lv4T",
+"genres": [
+"contemporary country",
+"country",
+"country road",
+"modern country rock"
+],
+"name": "Dan + Shay",
+"popularity": 74,
+"albums": [
+{
+"id": "4rQa0t2qWm1MNPy7DNEUHB",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/5c43cf759c5c7cdb975e2c89ea8a716cdf54dcec",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/0a59fd32ab26db3cb281920883dc2fa7957eb40d",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/3d0b12a07e35f474a2682aa1ce8dcab1eadad428",
+"width": 64
+}
+],
+"name": "Obsessed",
+"release_date": "2016-06-03",
+"tracks": [
+{
+"id": "1GVSxJSUkp2ytcGMnRs44P",
+"explicit": false,
+"name": "All Nighter",
+"popularity": 50,
+"release_date": "2016-06-03"
+},
+{
+"id": "2IOvJJrN6RajoMOd9TyGra",
+"explicit": false,
+"name": "Road Trippin'",
+"popularity": 61,
+"release_date": "2016-06-03"
+},
+{
+"id": "0lQJBl9YEsoMtE8D4yTE9g",
+"explicit": false,
+"name": "From the Ground Up",
+"popularity": 63,
+"release_date": "2016-06-03"
+},
+{
+"id": "2pLw1tu9QEGeidJKBZRaZI",
+"explicit": false,
+"name": "Already Ready",
+"popularity": 55,
+"release_date": "2016-06-03"
+},
+{
+"id": "4n0xztUAbHPUV8G3NQvF30",
+"explicit": false,
+"name": "How Not To",
+"popularity": 72,
+"release_date": "2016-06-03"
+},
+{
+"id": "0MdMNWw0rpBjQJ4SwQ0qbg",
+"explicit": false,
+"name": "Lipstick",
+"popularity": 58,
+"release_date": "2016-06-03"
+},
+{
+"id": "2IJYI3XoSTCXLpWttP68rF",
+"explicit": false,
+"name": "Round the Clock",
+"popularity": 49,
+"release_date": "2016-06-03"
+},
+{
+"id": "6n77sRt4ihxmRlkEGLRqHZ",
+"explicit": false,
+"name": "Lately",
+"popularity": 64,
+"release_date": "2016-06-03"
+},
+{
+"id": "5FT6VANzQnPQyNVeFS1rl9",
+"explicit": false,
+"name": "Sway",
+"popularity": 50,
+"release_date": "2016-06-03"
+},
+{
+"id": "4RBmXmZKf76IyNiPzebI55",
+"explicit": false,
+"name": "Obsessed",
+"popularity": 60,
+"release_date": "2016-06-03"
+}
+]
+},
+{
+"id": "2Zkvy7eARxR3qjKNWMiwMa",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/c2ce5cd9566002e99001e96e3bfa509e2e537f2b",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/0d1cc081fe3ffdf2db9bf54ef7bb8f74ba0d1db7",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/e634c96c475facf23b21d21a772ccfa2924903f2",
+"width": 64
+}
+],
+"name": "Where It All Began",
+"release_date": "2014-04-01",
+"tracks": [
+{
+"id": "4w9LtJn74XQhsHD1zAHnzY",
+"explicit": false,
+"name": "Show You Off",
+"popularity": 56,
+"release_date": "2014-04-01"
+},
+{
+"id": "2LNoMwodbEfYFaXY2loO5V",
+"explicit": false,
+"name": "Stop Drop + Roll",
+"popularity": 48,
+"release_date": "2014-04-01"
+},
+{
+"id": "7ongSdLv28Z27WeCrzZXwB",
+"explicit": false,
+"name": "19 You + Me",
+"popularity": 59,
+"release_date": "2014-04-01"
+},
+{
+"id": "5zXPsVuwJ4vLBcxAWzrnD6",
+"explicit": false,
+"name": "What You Do To Me",
+"popularity": 51,
+"release_date": "2014-04-01"
+},
+{
+"id": "5xdFitc41cUXrRtR5dzwg5",
+"explicit": false,
+"name": "Can't Say No",
+"popularity": 62,
+"release_date": "2014-04-01"
+},
+{
+"id": "1kFZQBIMd4RGiY4DhTtWXX",
+"explicit": false,
+"name": "First Time Feeling",
+"popularity": 51,
+"release_date": "2014-04-01"
+},
+{
+"id": "4W38RXuQNuoTSwVsQA1OGC",
+"explicit": false,
+"name": "Nothin' Like You",
+"popularity": 68,
+"release_date": "2014-04-01"
+},
+{
+"id": "5B9YE5b1j6uJVGcfvjyjbw",
+"explicit": false,
+"name": "Somewhere Only We Know",
+"popularity": 48,
+"release_date": "2014-04-01"
+},
+{
+"id": "1OLsgmQxn3bOoc3cqyIPyE",
+"explicit": false,
+"name": "Parking Brake",
+"popularity": 45,
+"release_date": "2014-04-01"
+},
+{
+"id": "3EcFVfHd0XJdr0M33uVZco",
+"explicit": false,
+"name": "I Heard Goodbye",
+"popularity": 51,
+"release_date": "2014-04-01"
+},
+{
+"id": "0jYwcoxlPCDXv5MkzmzoYB",
+"explicit": false,
+"name": "Party Girl",
+"popularity": 46,
+"release_date": "2014-04-01"
+},
+{
+"id": "4mU34hKHwdLfrk8eSPo1zZ",
+"explicit": false,
+"name": "Close Your Eyes",
+"popularity": 44,
+"release_date": "2014-04-01"
+},
+{
+"id": "07zz0TZzJechGIT70aY0WZ",
+"explicit": false,
+"name": "19 You + Me - Live Acoustic Bonus Track",
+"popularity": 40,
+"release_date": "2014-04-01"
+},
+{
+"id": "1I6d2JaljLQs9gVuh7p7q0",
+"explicit": false,
+"name": "Show You Off - Live Acoustic Bonus Track",
+"popularity": 38,
+"release_date": "2014-04-01"
+},
+{
+"id": "2NOhRi1zhOoDRDyVjYmY4n",
+"explicit": false,
+"name": "First Time Feeling - Live Acoustic Bonus Track",
+"popularity": 38,
+"release_date": "2014-04-01"
+}
+]
+},
+{
+"id": "7GwY65mTwrw2Rf519I5W6D",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/c2ce5cd9566002e99001e96e3bfa509e2e537f2b",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/0d1cc081fe3ffdf2db9bf54ef7bb8f74ba0d1db7",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/e634c96c475facf23b21d21a772ccfa2924903f2",
+"width": 64
+}
+],
+"name": "Where It All Began - Commentary",
+"release_date": "2014-03-28",
+"tracks": [
+{
+"id": "4q3DMJzhvPXFDjiMcU9KY5",
+"explicit": false,
+"name": "Show You Off - Commentary",
+"popularity": 32,
+"release_date": "2014-03-28"
+},
+{
+"id": "4bHuprpgXpqQA7sxAz0Gs2",
+"explicit": false,
+"name": "Stop Drop + Roll - Commentary",
+"popularity": 33,
+"release_date": "2014-03-28"
+},
+{
+"id": "2aEqizxxmbDrOSX8mHKN7x",
+"explicit": false,
+"name": "19 You + Me - Commentary",
+"popularity": 33,
+"release_date": "2014-03-28"
+},
+{
+"id": "0kyCNfaSCZIbRaBshiFJYm",
+"explicit": false,
+"name": "What You Do To Me - Commentary",
+"popularity": 33,
+"release_date": "2014-03-28"
+},
+{
+"id": "4ldnu1zEQOHIgULNY9F2XE",
+"explicit": false,
+"name": "Can't Say No - Commentary",
+"popularity": 22,
+"release_date": "2014-03-28"
+},
+{
+"id": "4nnI2cEJYUjfkpT9d5IEC5",
+"explicit": false,
+"name": "First Time Feeling - Commentary",
+"popularity": 20,
+"release_date": "2014-03-28"
+},
+{
+"id": "76GRNX66LDHi0U4SAny9QT",
+"explicit": false,
+"name": "Nothin' Like You - Commentary",
+"popularity": 32,
+"release_date": "2014-03-28"
+},
+{
+"id": "5hCkcRDCFSeQX1EFvlaktZ",
+"explicit": false,
+"name": "Somewhere Only We Know - Commentary",
+"popularity": 20,
+"release_date": "2014-03-28"
+},
+{
+"id": "5PhNmnuoh80sNqJzxTwxjz",
+"explicit": false,
+"name": "Parking Brake - Commentary",
+"popularity": 20,
+"release_date": "2014-03-28"
+},
+{
+"id": "1glIcTibENpzn6jCn2HqQh",
+"explicit": false,
+"name": "I Heard Goodbye - Commentary",
+"popularity": 20,
+"release_date": "2014-03-28"
+},
+{
+"id": "17U5kxYyZw58tRA0yHpX5h",
+"explicit": false,
+"name": "Party Girl - Commentary",
+"popularity": 32,
+"release_date": "2014-03-28"
+},
+{
+"id": "7oXpT4Ru7KaFMDV30KP4wp",
+"explicit": false,
+"name": "Close Your Eyes - Commentary",
+"popularity": 21,
+"release_date": "2014-03-28"
+}
+]
+},
+{
+"id": "01w6VtM4EpFWvBNg4g9xZF",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/93f18e6d004105e67704776e3eb7a910777c58db",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/22484ebb910a2b4505e4b7928a2baabe4ecad548",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/eda09cacd5c80c6987ab3642464f9c823edc7d1f",
+"width": 64
+}
+],
+"name": "Tequila",
+"release_date": "2018-01-10",
+"tracks": [
+{
+"id": "7Il2yWQmsqKgSkLQvHTPUI",
+"explicit": false,
+"name": "Tequila",
+"popularity": 86,
+"release_date": "2018-01-10"
+}
+]
+},
+{
+"id": "4kG5pb8MWB47R7UV3tpdci",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/06976979b4098f0270aa12c8f25ce5e25f647083",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/d3960c8555f8993dfe1497db0ef8e4e6975e12b9",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/ee63f716436485e0b714191fbb3ba47c4c553814",
+"width": 64
+}
+],
+"name": "When I Pray For You",
+"release_date": "2017-02-03",
+"tracks": [
+{
+"id": "16DRIwIBIgZdAgpp0vLh5q",
+"explicit": false,
+"name": "When I Pray For You",
+"popularity": 61,
+"release_date": "2017-02-03"
+}
+]
+},
+{
+"id": "2Ukvb2P5DacfRm6tJmXaVA",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/0757c166a2b91e261205bca58eb1bfc2521d9430",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/2b9c300ec0d7c816ec368720dedf82ec4a929eb1",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/62df9ae54e75c530c28c4b6c0b16bd777fae9ce1",
+"width": 64
+}
+],
+"name": "From The Ground Up",
+"release_date": "2016-02-05",
+"tracks": [
+{
+"id": "0AdjJ2SaOeb5bPJ67nDbsW",
+"explicit": false,
+"name": "From the Ground Up",
+"popularity": 68,
+"release_date": "2016-02-05"
+}
+]
+},
+{
+"id": "5qp7Ve7yfrklcsbBsIupQj",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/4a17ceedf8b6f1fdf8d2e71b297e3a322addccb5",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/89957fc8a5e30984e251bac7435729fc1ed6141d",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/2c172ea56e8af4d88c27ea12ed33f75d0f4cb5eb",
+"width": 64
+}
+],
+"name": "Show You Off",
+"release_date": "2014-03-18",
+"tracks": [
+{
+"id": "6jwEaYcBMil5kYR35BCMZT",
+"explicit": false,
+"name": "Show You Off",
+"popularity": 44,
+"release_date": "2014-03-18"
+}
+]
+},
+{
+"id": "3veZSRik7xQZXfmCIUr73g",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/4a17ceedf8b6f1fdf8d2e71b297e3a322addccb5",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/89957fc8a5e30984e251bac7435729fc1ed6141d",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/2c172ea56e8af4d88c27ea12ed33f75d0f4cb5eb",
+"width": 64
+}
+],
+"name": "What You Do To Me",
+"release_date": "2014-03-03",
+"tracks": [
+{
+"id": "2OddOO9AGOHgQ8W5mtftGz",
+"explicit": false,
+"name": "What You Do To Me",
+"popularity": 39,
+"release_date": "2014-03-03"
+}
+]
+},
+{
+"id": "0KJ0EP9lLzUALYxiIlohun",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/90ac18f11ddc34237e558674fa62c84416e9528a",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/0ff182c877719e1c788b5a9289c2aa6ac174ffaf",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/63fff2af51cb9293b169b7bae14d155333840a7b",
+"width": 64
+}
+],
+"name": "Have Yourself A Merry Little Christmas",
+"release_date": "2013-12-06",
+"tracks": [
+{
+"id": "5snVLlkq2g6xMRGWJNgupo",
+"explicit": false,
+"name": "Have Yourself A Merry Little Christmas",
+"popularity": 27,
+"release_date": "2013-12-06"
+}
+]
+},
+{
+"id": "1XsL6CKR43qw5ML8xCv98W",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/3bb32da313d59e69978123a8976ce3c96669360b",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/565e41674c94e360f4adebc4dbcd987d7832e411",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/e5c91213dae54af9bdd4366e010f93adf6a16b36",
+"width": 64
+}
+],
+"name": "19 You + Me",
+"release_date": "2013-08-20",
+"tracks": [
+{
+"id": "0uZhRTUTRk3iaAlJPLswm1",
+"explicit": false,
+"name": "19 You + Me",
+"popularity": 52,
+"release_date": "2013-08-20"
+}
+]
+},
+{
+"id": "6C1wafPzfvCnIbD2wgPkbx",
+"images": [
+{
+"height": 600,
+"url": "https://i.scdn.co/image/c5dff429eb4cd67056a90fe6d831bf8ae89d7d81",
+"width": 600
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/a0e2e5401d80adf29dce47624b6e007611946e2a",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/cf23adc759a41f007bc62df8503a14d8a8d25c54",
+"width": 64
+}
+],
+"name": "It's Christmas",
+"release_date": "2017-11-24",
+"tracks": [
+{
+"id": "6IJbmUFOO9Cw1fQzT6StjH",
+"explicit": false,
+"name": "It's Christmas",
+"popularity": 1,
+"release_date": "2017-11-24"
+},
+{
+"id": "4ou6IHJZ7itSTAlQJrp4hl",
+"explicit": false,
+"name": "Driving Home for Christmas",
+"popularity": 4,
+"release_date": "2017-11-24"
+},
+{
+"id": "7mIYF49wNW3qeQD6NnDcD0",
+"explicit": false,
+"name": "I Wish It Could Be Christmas Everyday",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "3gNaiulS9CKdgsKOwxchMO",
+"explicit": false,
+"name": "Fairytale of New York (feat. Kirsty MacColl)",
+"popularity": 2,
+"release_date": "2017-11-24"
+},
+{
+"id": "00UylZNqE7yf0dsVY0uEtg",
+"explicit": false,
+"name": "Santa Baby",
+"popularity": 1,
+"release_date": "2017-11-24"
+},
+{
+"id": "1apl69nEcIlcRFWP7agppT",
+"explicit": false,
+"name": "This Christmas",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "6l3HgVtSjPpcCp7rUo5Ypa",
+"explicit": false,
+"name": "Somewhere Only We Know",
+"popularity": 7,
+"release_date": "2017-11-24"
+},
+{
+"id": "6kywqRqLpTl0CFCuX9f3fx",
+"explicit": false,
+"name": "Christmas Time Is Here",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "2Ax5Pe2q0Zy3Z3MUhakHMR",
+"explicit": false,
+"name": "Presents for Christmas",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "5KBCv0gRR6jogvADEhI06G",
+"explicit": false,
+"name": "Happy Xmas (War Is Over)",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "7Kdbb9IKrpckmarq9xgluK",
+"explicit": false,
+"name": "Rudolph the Red-Nosed Reindeer",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "4XqDTNWCin55pHZFjRBJ60",
+"explicit": false,
+"name": "Gee Whiz, It's Christmas",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "5cN0w2vFXUua8x8RLNlo9H",
+"explicit": false,
+"name": "Baby, It's Cold Outside",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "6J1culAUVqACGQlKjyw9tc",
+"explicit": false,
+"name": "Lonely Pup (In a Christmas Shop)",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "7MMrLO7Jmi8jO2NALcmuRw",
+"explicit": false,
+"name": "O Come All Ye Faithful",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "5q7tRhTb7L68dfNxerJnPK",
+"explicit": false,
+"name": "Let It Snow",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "7CIxrpSvXJnUYaielsDzjE",
+"explicit": false,
+"name": "Let's Have a Merry Merry Christmas",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "2aEbSRFdrFvUgrMCmAzDA0",
+"explicit": false,
+"name": "I Saw Mommy Kissing Santa Claus",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "5SIQgCzV4KIddEdZRfIXru",
+"explicit": false,
+"name": "Winter Wonderland",
+"popularity": 0,
+"release_date": "2017-11-24"
+},
+{
+"id": "0DlKXP4Q3Dw9bLHiUE7Rqs",
+"explicit": false,
+"name": "What Christmas Means to Me",
+"popularity": 0,
+"release_date": "2017-11-24"
+}
+]
+}
+]
+}
+}
