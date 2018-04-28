@@ -1,0 +1,499 @@
+{
+"6MDME20pz9RveH9rEXvrOM": {
+"id": "6MDME20pz9RveH9rEXvrOM",
+"genres": [
+"dance pop",
+"edm",
+"pop",
+"tropical house",
+"uk funky"
+],
+"name": "Clean Bandit",
+"popularity": 82,
+"albums": [
+{
+"id": "0dNt3MfPrvj6mHmajSuahw",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/ee2ad7fe2135c3bafd0828b041307bb8d54f1c2a",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/9fb7f3949ababe914ff03b0a24fa05ff49e1d1b3",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/7ab536eb79c3c1d4a7b2c10ace84c5b91bda79f3",
+"width": 64
+}
+],
+"name": "New Eyes",
+"release_date": "2014-06-02",
+"tracks": [
+{
+"id": "2YSI2ZU7K0JihIzhEZNjBI",
+"explicit": false,
+"name": "Mozart's House (feat. Love Ssega)",
+"popularity": 44,
+"release_date": "2014-06-02"
+},
+{
+"id": "1NAa5SLZgH2tXhQLWeXUUL",
+"explicit": false,
+"name": "Extraordinary (feat. Sharna Bass)",
+"popularity": 50,
+"release_date": "2014-06-02"
+},
+{
+"id": "7qtxpp3xkyRQ9nUhuNh1kn",
+"explicit": false,
+"name": "Dust Clears (feat. Noonie Bao)",
+"popularity": 46,
+"release_date": "2014-06-02"
+},
+{
+"id": "61dCUoMCg28qEBzrW6htYM",
+"explicit": false,
+"name": "Rather Be (feat. Jess Glynne)",
+"popularity": 69,
+"release_date": "2014-06-02"
+},
+{
+"id": "6qNBaEdRbIk895IlQusqzv",
+"explicit": false,
+"name": "A+E (feat. Kandaka Moore & Nikki Cislyn)",
+"popularity": 44,
+"release_date": "2014-06-02"
+},
+{
+"id": "5WX8mqlPovtMHXCsHGioPn",
+"explicit": false,
+"name": "Come Over (feat. Stylo G)",
+"popularity": 53,
+"release_date": "2014-06-02"
+},
+{
+"id": "20TSfEQ5jybKGxMTvFchJr",
+"explicit": false,
+"name": "Cologne (feat. Nikki Cislyn & Javeon)",
+"popularity": 40,
+"release_date": "2014-06-02"
+},
+{
+"id": "3raf5q4OxpJyxifTzG2twJ",
+"explicit": false,
+"name": "Telephone Banking (feat. Love Ssega)",
+"popularity": 40,
+"release_date": "2014-06-02"
+},
+{
+"id": "4Z8rHb7aF8Xd2JIV1x36si",
+"explicit": false,
+"name": "Up Again (feat. Rae Morris)",
+"popularity": 40,
+"release_date": "2014-06-02"
+},
+{
+"id": "2HssecL0juw7KDDsPusUiw",
+"explicit": false,
+"name": "Heart On Fire (feat. Elisabeth Troy)",
+"popularity": 43,
+"release_date": "2014-06-02"
+},
+{
+"id": "3lHLjAIId4Vl27OY49pkJE",
+"explicit": false,
+"name": "New Eyes (feat. Lizzo)",
+"popularity": 36,
+"release_date": "2014-06-02"
+},
+{
+"id": "1NkLUXGJAgt5gDg6VdKC5U",
+"explicit": false,
+"name": "Birch (feat. Eliza Shaddad)",
+"popularity": 35,
+"release_date": "2014-06-02"
+},
+{
+"id": "2FPRXR0z3syptIYtz0vM8Q",
+"explicit": false,
+"name": "Outro Movement III",
+"popularity": 34,
+"release_date": "2014-06-02"
+},
+{
+"id": "2Vu3PpbpaBB5nAThPQstKL",
+"explicit": false,
+"name": "Real Love",
+"popularity": 52,
+"release_date": "2014-06-02"
+},
+{
+"id": "3utsJdhRUrJA8avrOawi8D",
+"explicit": false,
+"name": "Stronger",
+"popularity": 52,
+"release_date": "2014-06-02"
+},
+{
+"id": "7aJyMyhYppupv3lDyuk3WE",
+"explicit": false,
+"name": "Show Me Love (feat. Elisabeth Troy)",
+"popularity": 43,
+"release_date": "2014-06-02"
+}
+]
+},
+{
+"id": "2UeLzptsjiBltAdTG4WPzD",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/ee2ad7fe2135c3bafd0828b041307bb8d54f1c2a",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/9fb7f3949ababe914ff03b0a24fa05ff49e1d1b3",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/7ab536eb79c3c1d4a7b2c10ace84c5b91bda79f3",
+"width": 64
+}
+],
+"name": "New Eyes (Special Edition)",
+"release_date": "2014-06-02",
+"tracks": [
+{
+"id": "0l0Ja5h2XKMcxls66QTqZi",
+"explicit": false,
+"name": "Mozart's House (feat. Love Ssega)",
+"popularity": 3,
+"release_date": "2014-06-02"
+},
+{
+"id": "3ags9WHpDMWxKngPZuak0g",
+"explicit": false,
+"name": "Extraordinary (feat. Sharna Bass)",
+"popularity": 7,
+"release_date": "2014-06-02"
+},
+{
+"id": "4PIVG2X6CI72gIyfSHRpfv",
+"explicit": false,
+"name": "Dust Clears (feat. Noonie Bao)",
+"popularity": 7,
+"release_date": "2014-06-02"
+},
+{
+"id": "3q03wUw73eD3imuEiFx5Gy",
+"explicit": false,
+"name": "Rather Be (feat. Jess Glynne)",
+"popularity": 7,
+"release_date": "2014-06-02"
+},
+{
+"id": "3js9odmrDn0NaKwmwQoGmO",
+"explicit": false,
+"name": "A+E (feat. Kandaka Moore & Nikki Cislyn)",
+"popularity": 5,
+"release_date": "2014-06-02"
+},
+{
+"id": "0Rnet5Z5iDgdPd0woEJGuE",
+"explicit": false,
+"name": "Come Over (feat. Stylo G)",
+"popularity": 6,
+"release_date": "2014-06-02"
+},
+{
+"id": "4Myq8ZG0RMUtJN95lygfbg",
+"explicit": false,
+"name": "Cologne (feat. Nikki Cislyn & Javeon)",
+"popularity": 4,
+"release_date": "2014-06-02"
+},
+{
+"id": "2q0GGVoIH90M45BN41XFi1",
+"explicit": false,
+"name": "Telephone Banking (feat. Love Ssega)",
+"popularity": 3,
+"release_date": "2014-06-02"
+},
+{
+"id": "1pqFl6jSiyPZJ4TaWdt5ws",
+"explicit": false,
+"name": "Up Again (feat. Rae Morris)",
+"popularity": 3,
+"release_date": "2014-06-02"
+},
+{
+"id": "10LD6u2A1Bus4uszmbYC8M",
+"explicit": false,
+"name": "Heart On Fire (feat. Elisabeth Troy)",
+"popularity": 3,
+"release_date": "2014-06-02"
+},
+{
+"id": "2a13biZkTbu4pAkzzHLvgY",
+"explicit": false,
+"name": "New Eyes (feat. Lizzo)",
+"popularity": 2,
+"release_date": "2014-06-02"
+},
+{
+"id": "4OS7AsCNfhZjRFYc87NUM7",
+"explicit": false,
+"name": "Birch (feat. Eliza Shaddad)",
+"popularity": 2,
+"release_date": "2014-06-02"
+},
+{
+"id": "2vPB4DJRbOPtqNzWBGegjh",
+"explicit": false,
+"name": "Outro Movement III",
+"popularity": 2,
+"release_date": "2014-06-02"
+},
+{
+"id": "5duvk16csaNPr807tp0nDl",
+"explicit": false,
+"name": "Real Love",
+"popularity": 11,
+"release_date": "2014-06-02"
+},
+{
+"id": "4EBC5jVXYxVoko9rlz8gN0",
+"explicit": false,
+"name": "Stronger",
+"popularity": 20,
+"release_date": "2014-06-02"
+},
+{
+"id": "0VRL6GtjYpqrnvP8T6Lp9O",
+"explicit": false,
+"name": "Show Me Love (feat. Elisabeth Troy)",
+"popularity": 12,
+"release_date": "2014-06-02"
+},
+{
+"id": "34g9Vhaqgz7dm8ZYI64hmr",
+"explicit": false,
+"name": "Up Again (feat. Rae Morris) - Drumsound & Bassline Smith Remix",
+"popularity": 2,
+"release_date": "2014-06-02"
+},
+{
+"id": "3Ana1cPlGki2FLGo3KtS6O",
+"explicit": false,
+"name": "Outro Movement III (feat. BBC Philharmonic Orchestra)",
+"popularity": 1,
+"release_date": "2014-06-02"
+},
+{
+"id": "5Sdq2bJDtVbkYEzxzRC5iv",
+"explicit": false,
+"name": "Dust Clears (feat. BBC Philharmonic Orchestra)",
+"popularity": 2,
+"release_date": "2014-06-02"
+},
+{
+"id": "6iugn6q3GRGOaZoyKW5Osy",
+"explicit": false,
+"name": "Extraordinary (feat. BBC Philharmonic Orchestra & Rae Morris)",
+"popularity": 2,
+"release_date": "2014-06-02"
+}
+]
+},
+{
+"id": "2yC3qfqNkNE0829TZHv1qW",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/6e5890e71af9ddbfe0278e215deaca7d0493a908",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/15f80e2e22551194d1b6dcfbf89db4cf9befe455",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/9939f4230da23f29fecf5508006c292f1bf2366e",
+"width": 64
+}
+],
+"name": "Stargazer (Clean Bandit Remix)",
+"release_date": "2018-04-07",
+"tracks": [
+{
+"id": "4z6XA2TEqhKmOHYci6fIkT",
+"explicit": false,
+"name": "Stargazer - Clean Bandit Remix",
+"popularity": 31,
+"release_date": "2018-04-07"
+}
+]
+},
+{
+"id": "4Ol6h6D8OdsFju6ks2HFbh",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/92d5b2f53a387aae003e1b4b505b73035205bc13",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3480de7a056d9b2dc425666d7f935bfc77e65b66",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/2550c676bfca8275ac1159d808094d3e39c2cf8c",
+"width": 64
+}
+],
+"name": "I Miss You (feat. Julia Michaels)",
+"release_date": "2018-02-16",
+"tracks": [
+{
+"id": "3zKHw6cGxDZsqUyiGPwFca",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Branchez & Charlie Klarsfeld Remix",
+"popularity": 52,
+"release_date": "2018-02-16"
+},
+{
+"id": "7hzXlxuimQvYSpr5XOSOFK",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Kryder Remix",
+"popularity": 61,
+"release_date": "2018-02-16"
+},
+{
+"id": "0A7iIAhlX4SywY7Dc3c7Wu",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Stadiumx Remix",
+"popularity": 60,
+"release_date": "2018-02-16"
+},
+{
+"id": "6KSI3Q2arQAyTJNhydKkTB",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Joe Maz Remix",
+"popularity": 40,
+"release_date": "2018-02-16"
+},
+{
+"id": "6wkbzxi0dUxKVH4ycXyUr4",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Lodato & Joseph Duveen Remix",
+"popularity": 57,
+"release_date": "2018-02-16"
+}
+]
+},
+{
+"id": "43oKHJN2SMTf0OB6U3CRJB",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/92d5b2f53a387aae003e1b4b505b73035205bc13",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3480de7a056d9b2dc425666d7f935bfc77e65b66",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/2550c676bfca8275ac1159d808094d3e39c2cf8c",
+"width": 64
+}
+],
+"name": "I Miss You (feat. Julia Michaels) [DRAM Remix]",
+"release_date": "2018-01-24",
+"tracks": [
+{
+"id": "1drBZb13liRJVb9lnE0rGf",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - DRAM Remix",
+"popularity": 53,
+"release_date": "2018-01-24"
+}
+]
+},
+{
+"id": "4yKgKshMiimE83yR2wFdWy",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/92d5b2f53a387aae003e1b4b505b73035205bc13",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3480de7a056d9b2dc425666d7f935bfc77e65b66",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/2550c676bfca8275ac1159d808094d3e39c2cf8c",
+"width": 64
+}
+],
+"name": "I Miss You (feat. Julia Michaels) [Yungen Remix]",
+"release_date": "2018-01-05",
+"tracks": [
+{
+"id": "7jnKnxBeSQbcMAuXNmK2vQ",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Yungen Remix",
+"popularity": 60,
+"release_date": "2018-01-05"
+}
+]
+},
+{
+"id": "0aMhCblhlWUnumVTQAT4Ya",
+"images": [
+{
+"height": 640,
+"url": "https://i.scdn.co/image/92d5b2f53a387aae003e1b4b505b73035205bc13",
+"width": 640
+},
+{
+"height": 300,
+"url": "https://i.scdn.co/image/3480de7a056d9b2dc425666d7f935bfc77e65b66",
+"width": 300
+},
+{
+"height": 64,
+"url": "https://i.scdn.co/image/2550c676bfca8275ac1159d808094d3e39c2cf8c",
+"width": 64
+}
+],
+"name": "I Miss You (feat. Julia Michaels) [Tokio Myers Remix]",
+"release_date": "2017-12-15",
+"tracks": [
+{
+"id": "6NRzwNXPyXUVY7I6Jp8zPl",
+"explicit": false,
+"name": "I Miss You (feat. Julia Michaels) - Tokio Myers Remix",
+"popularity": 53,
+"release_date": "2017-12-15"
+}
+]
+}
+]
+}
+}
