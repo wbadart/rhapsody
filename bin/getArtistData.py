@@ -140,7 +140,7 @@ def main():
     #track_set = set()
     completed_artists = set()
     with PersistentDict(
-        path='../data/artist_data7.json',
+        path='../data/artist_data8.json',
         encode=partial(dumps, indent=0)) as result:
         all_artists = artists
         num_related = 3 # number of times to get related artist
@@ -158,8 +158,8 @@ def main():
         completed_artists = completedArtists()
         print("Number of Artists: "+str(len(all_artists)))
         with open('completed_artist.txt','a') as f:
-            try:
-                for artist in all_artists: # for each artists in our "queue"
+            for artist in all_artists: # for each artists in our "queue"
+                try:
                     if artist in completed_artists: # already done
                         continue
                     completed_artists.add(artist) # add to done set
@@ -196,12 +196,13 @@ def main():
                                 new_dict['tracks'].append(track_info)
                             result[artist]['albums'].append(new_dict)
                     f.write(str(artist)+'\n')
-            except KeyError as e2:
-                print(e2)
-                time.sleep(90)
-            except ConnectionError as e:
-                print(e)
-                f.write(str(artist)+'\n')
+                except KeyError as e2:
+                    print(e2)
+                    time.sleep(90)
+                    continue
+                except ConnectionError as e:
+                    print(e)
+                    f.write(str(artist)+'\n')
     print("COMPLETE")
 
 
