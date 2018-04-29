@@ -1,48 +1,45 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>rhapsody | Home</title>
-    <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
-        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-        crossorigin="anonymous">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js">
-    </script>
+{% extends 'base.html' %}
 
-    <style>
-        .page-header {
-            margin-top: 2em;
-        }
-    </style>
-</head>
-<body class="container">
+{% block content %}
 
-    <header class="page-header">
-        <h1>rhapsody</h1>
-        <p>Next generation music recommendation</p>
-    </header>
+<div id="fullpage">
 
-    <main>
-        <ul>
-            {% for song in songs %}
-            <li>
-                <strong>{{ song.title }}</strong>
-                by {{ song.artist.name }}
-            </li>
-            {% endfor %}
-        </ul>
-        <hr>
+    <!-- ========================== -->
+    <!-- ===== Splash section ===== -->
+    <!-- ========================== -->
+
+    <div class="section" data-tooltip="home" data-anchor="home">
+        <div class="fullscreen-bg">
+            <video loop muted data-autoplay data-keepplaying poster="/static/rhapsody_web/poster.jpg" class="fullscreen-bg__video">
+                <source src="/static/rhapsody_web/record.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container page-header">
+            <h1><img class="R" src="/static/rhapsody_web/favicon.ico">hapsody</h1>
+            <p>Next generation music recommendation</p>
+        </div>
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- ===== Graph section ===== -->
+    <!-- ========================= -->
+
+    <div class="section fp-noscroll" data-tooltip="app" data-anchor="app">
+        <form name="entry" class="container">
+            <br>
+            <label for="entry">Enter the name of a song, artist or album you like</label>
+            <input class="form-control" id="entry" placeholder="Fallout Boy...">
+        </form>
         <div id="graph"></div>
-    </main>
+    </div>
 
-    <hr>
-    <footer>
+
+    <!-- ========================== -->
+    <!-- ===== Footer section ===== -->
+    <!-- ========================== -->
+
+    <div class="section container" data-tooltip="info" data-anchor="info">
         <p>
             Project executed for Notre Dame CSE-30246.
             See <a href="https://github.com/wbadart/rhapsody">repo</a> for details.
@@ -50,8 +47,24 @@
             &copy; 2018 CSE-30246 Rhapsody Project Group
         </p>
         <p><a href="/accounts/logout">Logout</a><p>
-    </footer>
+    </div>
 
-    <script src="/static/rhapsody_web/graph.js"></script>
-</body>
-</html>
+</div><!--/#fullpage-->
+
+
+<script>
+    $('#fullpage').fullpage({
+        navigation: true,
+        onLeave: function(index, next, direction) {
+            $('#fp-nav ul li a span, .fp-slidesNav ul li a span').css(
+                'background', next !== 1 ? '#333' : 'white');
+            $('.fp-tooltip').css('color', next !== 1 ? 'black' : 'white');
+        }
+    });
+    $('#graph').scroll(function(e) {
+        console.log(e);
+    });
+</script>
+<script src="/static/rhapsody_web/graph.js"></script>
+
+{% endblock %}

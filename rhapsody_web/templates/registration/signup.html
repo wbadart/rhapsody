@@ -1,10 +1,58 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h2>Sign up</h2>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Sign up</button>
-  </form>
+
+<div id="fullpage">
+
+    <!-- ========================== -->
+    <!-- ===== Splash section ===== -->
+    <!-- ========================== -->
+
+    <div class="section" data-tooltip="home" data-anchor="home">
+        <div class="fullscreen-bg">
+            <video loop muted data-autoplay data-keepplaying poster="/static/rhapsody_web/poster.jpg" class="fullscreen-bg__video">
+                <source src="/static/rhapsody_web/record.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container page-header" id="signup-block">
+            <h1><img class="R" src="/static/rhapsody_web/favicon.ico">hapsody</h1>
+            <p>Next generation music recommendation</p>
+            <h2>Sign up</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-info" type="submit">Sign up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ========================== -->
+    <!-- ===== Footer section ===== -->
+    <!-- ========================== -->
+
+    <div class="section container" data-tooltip="info" data-anchor="info">
+        <p>
+            Project executed for Notre Dame CSE-30246.
+            See <a href="https://github.com/wbadart/rhapsody">repo</a> for details.
+            <br>
+            &copy; 2018 CSE-30246 Rhapsody Project Group
+        </p>
+        <p><a href="/accounts/logout">Logout</a><p>
+    </div>
+
+</div><!--/#fullpage-->
+
+
+<script>
+    $('#fullpage').fullpage({
+        navigation: true,
+        scrollOverflow: true,
+        onLeave: function(index, next, direction) {
+            $('#fp-nav ul li a span, .fp-slidesNav ul li a span').css(
+                'background', next !== 1 ? '#333' : 'white');
+            $('.fp-tooltip').css('color', next !== 1 ? 'black' : 'white');
+        }
+    });
+</script>
+
 {% endblock %}
