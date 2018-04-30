@@ -79,6 +79,9 @@ class Regular(User):
     pass
 
 class Song_Graph(models.Model):
-    song1_id = models.CharField(max_length=22, primary_key=True)
-    song2_id = models.CharField(max_length=22, primary_key=True)
+    song1_id = models.CharField(max_length=22, null=True)
+    song2_id = models.CharField(max_length=22, null=True)
     edge_weight = models.IntegerField(null=True)
+
+    class Meta:
+        unique_together = ("song1_id", "song2_id")

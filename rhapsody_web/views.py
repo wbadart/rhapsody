@@ -35,3 +35,7 @@ def rand_songs(req, n):
     songs = [s.title for s in sample(list(models.Song.objects.all()), k=n)]
     pairs = sample(list(product(songs, repeat=2)), k=n)
     return JsonResponse([[s for s in songs], pairs], safe=False)
+
+def random_walk(req, id):
+    d = {id:id}
+    return JsonResponse(d)
