@@ -25,7 +25,7 @@ SECRET_KEY = 'j1&t(geedhpqt^ug10-_6)$co%#p-0u&s+egg0no#it92$e-4='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dsg1.crc.nd.edu']
 
 
 # Application definition

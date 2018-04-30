@@ -7,6 +7,9 @@ class Artist(models.Model):
     # albums - ManyToManyField included in Album
     # songs - ManyToManyField included in Song
     #concerts = models.ManyToManyField(Concert)
+    def __str__(self):
+        return self.name + " (" + self.spotify_id + ")"
+
 
 class Genre(models.Model):
     name = models.CharField(max_length=30, primary_key=True)
@@ -42,6 +45,9 @@ class Song(models.Model):
     artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
     album = models.ForeignKey(Album, null=True, on_delete=models.CASCADE)
     title = models.CharField(max_length=30, default="")
+
+    def __str__(self):
+        return self.title + " (" + self.spotify_id + ")"
 
 class Playlist(models.Model):
     spotify_id = models.CharField(max_length=22, primary_key=True)
