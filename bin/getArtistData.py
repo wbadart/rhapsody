@@ -140,7 +140,7 @@ def main():
     #track_set = set()
     completed_artists = set()
     with PersistentDict(
-        path='../data/artist_data11.json',
+        path='../data/artist_data12.json',
         encode=partial(dumps, indent=0)) as result:
         all_artists = artists
         num_related = 3 # number of times to get related artist
