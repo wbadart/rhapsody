@@ -12,10 +12,6 @@
 
 global.onload = getjson.bind(null, 'test/10', mkgraph);
 
-
-})(window);
-
-
 function mkgraph([names, links]) {
     var nodes = new vis.DataSet(names.map((n, i) => ({id: n, label: n})))
       , edges = new vis.DataSet(links.map(([e1, e2]) => ({from: e1, to: e2})));
@@ -32,3 +28,5 @@ function getjson(path, cb) {
     req.send();
     return req;
 }
+
+})(window);
