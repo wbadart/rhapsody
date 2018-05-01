@@ -21,7 +21,8 @@
             <form method="post">
                 {% csrf_token %}
                 {{ form.as_p }}
-                <button class="btn btn-info" type="submit">Sign up</button>
+                <button class="btn btn-info" type="submit">Sign up</button>&nbsp;
+                <a class="btn btn-danger" href="{% url 'index' %}">Cancel</a>
             </form>
         </div>
     </div>
