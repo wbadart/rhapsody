@@ -1,5 +1,6 @@
 import rhapsody_web.models as models
 
+from django.core.serializers import serialize
 from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render, redirect
 
@@ -7,6 +8,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 
+from json import loads
 from random import sample
 
 import sys
@@ -39,7 +41,23 @@ def rand_songs(req, n):
     pairs = sample(list(product(songs, repeat=2)), k=n)
     return JsonResponse([[s for s in songs], pairs], safe=False)
 
-def random_walk(req, id):
-    spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
-    return JsonResponse(spotify.track_recommendations(id))
-#    return JsonResponse(d)
+
+def random_walk(req, spotify_id):
+    # spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
+    # return JsonResponse(spotify.track_recommendations(id))
+    # return JsonResponse(d)
+    try:
+        node = models.Song.objects.get(pk=spotify_id)
+    except models.Song.DoesNotExist:
+        try:
+            node = models.Artist.objects.get(pk=spotify_id)
+        except models.Artist.DoesNotExist:
+            try:
+                node = models.Album.objects.get(pk=spotify_id)
+            except models.Album.DoesNotExist:
+                pass
+    DEPTH = 3
+    g = node.graph(DEPTH)
+    nodes = loads(serialize('json', list(g)))
+    edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
+    return JsonResponse([nodes, edges], safe=False)

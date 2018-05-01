@@ -1,14 +1,44 @@
+from itertools import chain
 from django.db import models
 
-class Artist(models.Model):
+
+class Node(object):
+    def neighbors(self):
+        raise NotImplementedError
+
+    def graph(self, depth=1):
+        if not depth:
+            return {self: set()}
+        elif depth == 1:
+            return {self: set(self.neighbors())}
+        else:
+            init = self.graph(depth=1)
+            for n in self.neighbors():
+                init.update(n.graph(depth - 1))
+            return init
+
+    def edges(self, depth=1):
+        g = self.graph(depth)
+        for vertex, edgelist in g.items():
+            for edge in edgelist:
+                yield (vertex, edge)
+
+
+class Artist(models.Model, Node):
     spotify_id = models.CharField(max_length=22, primary_key=True)
     popularity = models.IntegerField(null=True)
     name = models.CharField(max_length=30, default="")
     # albums - ManyToManyField included in Album
     # songs - ManyToManyField included in Song
-    #concerts = models.ManyToManyField(Concert)
+    # concerts = models.ManyToManyField(Concert)
+
     def __str__(self):
         return self.name + " (" + self.spotify_id + ")"
+
+    def neighbors(self):
+        albums = (a for a in Album.objects.all() if self in a.artists.all())
+        songs = Song.objects.filter(artist=self)
+        return chain(albums, songs)
 
 
 class Genre(models.Model):
@@ -20,7 +50,8 @@ class Genre(models.Model):
     #   data. We could extrapolate this from the album or artist genre
     #   data later though
 
-class Album(models.Model):
+
+class Album(models.Model, Node):
     ALBUM = "A"
     SINGLE = "S"
     COMPILATION = "C"
@@ -29,18 +60,29 @@ class Album(models.Model):
         (SINGLE, "single"),
         (COMPILATION, "compilation")
     )
-    album_type = models.CharField(max_length=1, choices=ALBUM_TYPE_CHOICES, default=ALBUM)
+    album_type = models.CharField(
+        max_length=1, choices=ALBUM_TYPE_CHOICES, default=ALBUM)
     artists = models.ManyToManyField(Artist)
     spotify_id = models.CharField(max_length=22, primary_key=True)
     genres = models.ManyToManyField(Genre)
     label = models.CharField(max_length=30, default="")
     name = models.CharField(max_length=30, default="")
-    release_date = models.DateField(null=True)  # Note this is going to come in
-                                       # as a string from the spotify
-                                       # API, so some conversion will
-                                       # have to be done
 
-class Song(models.Model):
+    # Note this is going to come in
+    # as a string from the spotify
+    # API, so some conversion will
+    # have to be done
+    release_date = models.DateField(null=True)
+
+    def __str__(self):
+        return self.name + " (" + self.spotify_id + ")"
+
+    def neighbors(self):
+        songs = Song.objects.filter(album=self)
+        return chain(self.artists.all(), songs)
+
+
+class Song(models.Model, Node):
     spotify_id = models.CharField(max_length=22, primary_key=True)
     artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
     album = models.ForeignKey(Album, null=True, on_delete=models.CASCADE)
@@ -48,6 +90,10 @@ class Song(models.Model):
 
     def __str__(self):
         return self.title + " (" + self.spotify_id + ")"
+
+    def neighbors(self):
+        return [self.artist, self.album]
+
 
 class Playlist(models.Model):
     spotify_id = models.CharField(max_length=22, primary_key=True)
@@ -59,14 +105,17 @@ class Playlist(models.Model):
     name = models.CharField(max_length=30, default="")
     public = models.BooleanField(default=True)
 
+
 class RadioStation(models.Model):
     pass
+
 
 class Concert(models.Model):
     pass
 
+
 class User(models.Model):
-    #abstract = True
+    # abstract = True
 
     username = models.CharField(max_length=30, unique=True)
     spotify_id = models.CharField(max_length=22, primary_key=True)
@@ -78,11 +127,14 @@ class User(models.Model):
     radio_station = models.ManyToManyField(RadioStation)
     friends = models.ForeignKey("self", on_delete=models.SET_NULL, null=True)
 
+
 class Admin(User):
     pass
 
+
 class Regular(User):
     pass
+
 
 class Song_Graph(models.Model):
     song1_id = models.CharField(max_length=22, null=True)

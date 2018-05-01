@@ -10,10 +10,10 @@
 (function(global) {
 'use strict';
 
-global.onload = getjson.bind(null, 'test/10', mkgraph);
+global.onload = getjson.bind(null, 'api/2YZyLoL8N0Wb9xBt1NhZWg', mkgraph);
 
 function mkgraph([names, links]) {
-    var nodes = new vis.DataSet(names.map((n, i) => ({id: n, label: n})))
+    var nodes = new vis.DataSet(names.map(n => ({id: n.pk, label: n.fields.name})))
       , edges = new vis.DataSet(links.map(([e1, e2]) => ({from: e1, to: e2})));
     new vis.Network(document.getElementById('graph'), {nodes, edges}, {});
 }
