@@ -13,7 +13,17 @@
 global.onload = getjson.bind(null, 'api/2YZyLoL8N0Wb9xBt1NhZWg', mkgraph);
 
 function mkgraph([names, links]) {
-    var nodes = new vis.DataSet(names.map(n => ({id: n.pk, label: n.fields.name})))
+    var colors = {
+        'rhapsody_web.artist': '#d35e60',
+        'rhapsody_web.song':   '#7293cb',
+        'rhapsody_web.album':  '#84ba5b'
+        }
+    var name = {
+        'rhapsody_web.artist': 'name',
+        'rhapsody_web.song':   'title',
+        'rhapsody_web.album':  'name'
+    }
+    var nodes = new vis.DataSet(names.map(n => ({id: n.pk, label: n.fields[name[n.model]], color: colors[n.model]})))
       , edges = new vis.DataSet(links.map(([e1, e2]) => ({from: e1, to: e2})));
     new vis.Network(document.getElementById('graph'), {nodes, edges}, {});
 }
