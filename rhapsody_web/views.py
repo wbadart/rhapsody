@@ -9,6 +9,9 @@ from django.contrib.auth.decorators import login_required
 
 from random import sample
 
+import sys
+
+import bin.crawl as crawl
 
 def signup(request):
     if request.method == 'POST':
@@ -35,3 +38,8 @@ def rand_songs(req, n):
     songs = [s.title for s in sample(list(models.Song.objects.all()), k=n)]
     pairs = sample(list(product(songs, repeat=2)), k=n)
     return JsonResponse([[s for s in songs], pairs], safe=False)
+
+def random_walk(req, id):
+    spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
+    return JsonResponse(spotify.track_recommendations(id))
+#    return JsonResponse(d)

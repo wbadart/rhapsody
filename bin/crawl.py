@@ -37,12 +37,17 @@ class Spotify(object):
         self._token = token
         self._secret = secret
 
-    def request(self, endpoint):
+    def request(self, endpoint, optional_args):
         '''
         Generic Spotify API GET request to `endpoint' (excludes leading slash).
         '''
-        res = r.get(API_URI_FMT.format(endpoint), headers={
-            'Authorization': 'Bearer {0}'.format(self._token).strip()})
+        if optional_args == None:
+            res = r.get(API_URI_FMT.format(endpoint), headers={
+                'Authorization': 'Bearer {0}'.format(self._token).strip()})
+        else:
+            res = r.get(API_URI_FMT.format(endpoint), params=optional_args, headers={
+                'Authorization': 'Bearer {0}'.format(self._token).strip()})
+        print(res.url)
         if self._expired(res):
             self._refresh_token()
             return self.request(endpoint)
@@ -69,6 +74,10 @@ class Spotify(object):
     def track_details(self, track_id):
         '''Request the details for track of given track_id.'''
         return self.request('tracks/{0}'.format(track_id)).json()
+    
+    def track_recommendations(self, track_id):
+        '''Request recommendations for a seed track'''
+        return self.request('recommendations',{'seed_tracks':track_id}).json()
 
     def _refresh_token(self):
         '''Update self's access token with a new access token from Spotify.'''

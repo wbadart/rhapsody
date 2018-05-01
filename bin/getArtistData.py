@@ -9,9 +9,11 @@ created: 04 2018
 '''
 
 import requests as r
+from requests.exceptions import ConnectionError
 from base64 import b64encode as b64
 from functools import partial
 import json
+import time
 from json import dumps
 from operator import itemgetter
 from os import environ
@@ -116,6 +118,14 @@ def checkRepeatAlbum(name,album_list):
            return False
     return True
 
+#remove the artists we already completed
+def completedArtists():
+    with open('completed_artist.txt','r+') as f:
+         a_list = set()
+         for line in f:
+             a_list.add(line.rstrip())
+    return a_list
+
 def main():
     from argparse import ArgumentParser
     parser = ArgumentParser(
@@ -130,9 +140,8 @@ def main():
     #track_set = set()
     completed_artists = set()
     with PersistentDict(
-        path='../data/artist_data.json',
+        path='../data/artist_data13.json',
         encode=partial(dumps, indent=0)) as result:
-        count = -1
         all_artists = artists
         num_related = 3 # number of times to get related artist
         for i in range(0,num_related):
@@ -146,45 +155,54 @@ def main():
                     if related_artists not in completed_artists:
                         all_artists.append(related_artists)
                         completed_artists.add(related_artists)
-        completed_artists = set()
+        completed_artists = completedArtists()
         print("Number of Artists: "+str(len(all_artists)))
-        for artist in all_artists: # for each artists in our "queue"
-            if artist in completed_artists: # already done
-                continue
-            completed_artists.add(artist) # add to done set
-            count = count+1
-            print("Progress: "+str((count/len(all_artists))*100.0)+"%")
-            # HANDLE ARTIST INFO
-            result[artist] = {}
-            artist_json = spotify.artist_info(artist)
-            result[artist]['id'] = artist
-            result[artist]['genres'] = artist_json['genres']
-            result[artist]['name'] = artist_json['name']
-            result[artist]['popularity'] = artist_json['popularity']
-            result[artist]['albums'] = []
-            # END ARTIST INFO
-            for albums in ids(spotify.albums_by_artists(artist)): # each album of artist
-                # HANDLE ALBUM INFO
-                full_albums = spotify.album_info(albums)
-                if checkRepeatAlbum(full_albums['name'],result[artist]['albums']):
-                    new_dict = {}
-                    new_dict['id'] = albums
-                    new_dict['images'] = full_albums['images']
-                    new_dict['name'] = full_albums['name']
-                    new_dict['release_date'] = full_albums['release_date']
-                    new_dict['tracks'] = []
-                    # END ALBUM INFO
-                    for song in ids(spotify.songs_by_album(albums)): # each song for album
-                        # HANDLE TRACK INFO
-                        track = spotify.track_details(song)
-                        track_info = {}
-                        track_info['id'] = song
-                        track_info['explicit'] = track['explicit']
-                        track_info['name'] = track['name']
-                        track_info['popularity'] = track['popularity']
-                        track_info['release_date'] = full_albums['release_date']
-                        new_dict['tracks'].append(track_info)
-                    result[artist]['albums'].append(new_dict)
+        with open('completed_artist.txt','a') as f:
+            for artist in all_artists: # for each artists in our "queue"
+                try:
+                    if artist in completed_artists: # already done
+                        continue
+                    completed_artists.add(artist) # add to done set
+                    print("Progress: "+str((len(completed_artists)/len(all_artists))*100.0)+"%")
+                    # HANDLE ARTIST INFO
+                    result[artist] = {}
+                    artist_json = spotify.artist_info(artist)
+                    result[artist]['id'] = artist
+                    result[artist]['genres'] = artist_json['genres']
+                    result[artist]['name'] = artist_json['name']
+                    result[artist]['popularity'] = artist_json['popularity']
+                    result[artist]['albums'] = []
+                    # END ARTIST INFO
+                    for albums in ids(spotify.albums_by_artists(artist)): # each album of artist
+                        # HANDLE ALBUM INFO
+                        full_albums = spotify.album_info(albums)
+                        if checkRepeatAlbum(full_albums['name'],result[artist]['albums']):
+                            new_dict = {}
+                            new_dict['id'] = albums
+                            new_dict['images'] = full_albums['images']
+                            new_dict['name'] = full_albums['name']
+                            new_dict['release_date'] = full_albums['release_date']
+                            new_dict['tracks'] = []
+                            # END ALBUM INFO
+                            for song in ids(spotify.songs_by_album(albums)): # each song for album
+                                # HANDLE TRACK INFO
+                                track = spotify.track_details(song)
+                                track_info = {}
+                                track_info['id'] = song
+                                track_info['explicit'] = track['explicit']
+                                track_info['name'] = track['name']
+                                track_info['popularity'] = track['popularity']
+                                track_info['release_date'] = full_albums['release_date']
+                                new_dict['tracks'].append(track_info)
+                            result[artist]['albums'].append(new_dict)
+                    f.write(str(artist)+'\n')
+                except KeyError as e2:
+                    print(e2)
+                    time.sleep(90)
+                    continue
+                except ConnectionError as e:
+                    print(e)
+                    f.write(str(artist)+'\n')
     print("COMPLETE")
 
 
