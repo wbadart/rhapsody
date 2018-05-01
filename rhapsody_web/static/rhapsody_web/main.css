@@ -16,6 +16,8 @@ body, .fp-tooltip { font-family: 'Poppins', sans-serif !important; }
 }
 div#graph {
     height: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 1em;
 }
 
 span.helptext {
@@ -26,4 +28,17 @@ span.helptext {
 #signup-block label, input {
     display: block;
     font-size: 0.7em;
+}
+
+div.app label {
+    color: white;
+}
+
+div.app input#entry {
+    font-size: 1em;
+    width: 100%;
+}
+
+div.app .btn-warning {
+    color: white;
 }

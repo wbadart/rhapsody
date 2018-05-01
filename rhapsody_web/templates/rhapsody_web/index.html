@@ -8,30 +8,44 @@
     <!-- ===== Splash section ===== -->
     <!-- ========================== -->
 
-    <div class="section" data-tooltip="home" data-anchor="home">
-        <div class="fullscreen-bg">
-            <video loop muted data-autoplay data-keepplaying poster="/static/rhapsody_web/poster.jpg" class="fullscreen-bg__video">
-                <source src="/static/rhapsody_web/record.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="container page-header">
-            <h1><img class="R" alt="r" src="/static/rhapsody_web/favicon.ico">hapsody</h1>
-            <p>Next generation music recommendation</p>
-        </div>
-    </div>
+    <!-- <div class="section" data-tooltip="home" data-anchor="home"> -->
+    <!--     <div class="fullscreen-bg"> -->
+    <!--         <video loop muted data-autoplay data-keepplaying poster="/static/rhapsody_web/poster.jpg" class="fullscreen-bg__video"> -->
+    <!--             <source src="/static/rhapsody_web/record.mp4" type="video/mp4"> -->
+    <!--         </video> -->
+    <!--     </div> -->
+    <!--     <div class="container page-header"> -->
+    <!--         <h1><img class="R" alt="r" src="/static/rhapsody_web/favicon.ico">hapsody</h1> -->
+    <!--         <p>Next generation music recommendation</p> -->
+    <!--     </div> -->
+    <!-- </div> -->
 
 
     <!-- ========================= -->
     <!-- ===== Graph section ===== -->
     <!-- ========================= -->
 
-    <div class="section fp-noscroll" data-tooltip="app" data-anchor="app">
-        <form name="entry" class="container">
+    <div class="section fp-noscroll app" data-tooltip="app" data-anchor="app">
+        <div class="fullscreen-bg">
+            <video loop muted poster="/static/rhapsody_web/poster.jpg" class="fullscreen-bg__video">
+                <source src="/static/rhapsody_web/record.mp4" type="video/mp4">
+            </video>
+        </div>
+        <form method="POST" name="entry" class="container">
+            {% csrf_token %}
             <br>
             <label for="entry">Enter the name of a song, artist or album you like</label>
-            <input class="form-control" id="entry" placeholder="Fallout Boy...">
+            <div class="row">
+                <div class="col-sm-8">
+                    <input id="entry" placeholder="Fallout Boy...">
+                </div>
+                <div class="col-sm-4">
+                    <input type="submit" class="btn btn-info" value="Go!"></input>
+                </div>
+            </div>
         </form>
         <div id="graph"></div>
+        <p><a class="btn btn-danger float-right" href="/accounts/logout">Logout</a><p>
     </div>
 
 
@@ -39,31 +53,21 @@
     <!-- ===== Footer section ===== -->
     <!-- ========================== -->
 
-    <div class="section container" data-tooltip="info" data-anchor="info">
-        <p>
-            Project executed for Notre Dame CSE-30246.
-            See <a href="https://github.com/wbadart/rhapsody">repo</a> for details.
-            <br>
-            &copy; 2018 CSE-30246 Rhapsody Project Group
-        </p>
-        <p><a href="/accounts/logout">Logout</a><p>
-    </div>
+    <!-- <div class="section container" data-tooltip="info" data-anchor="info"> -->
+    <!--     <p> -->
+    <!--         Project executed for Notre Dame CSE-30246. -->
+    <!--         See <a href="https://github.com/wbadart/rhapsody">repo</a> for details. -->
+    <!--         <br> -->
+    <!--         &copy; 2018 CSE-30246 Rhapsody Project Group -->
+    <!--     </p> -->
+    <!--     <p><a href="/accounts/logout">Logout</a><p> -->
+    <!-- </div> -->
 
 </div><!--/#fullpage-->
 
 
 <script>
-    $('#fullpage').fullpage({
-        navigation: true,
-        onLeave: function(index, next, direction) {
-            $('#fp-nav ul li a span, .fp-slidesNav ul li a span').css(
-                'background', next !== 1 ? '#333' : 'white');
-            $('.fp-tooltip').css('color', next !== 1 ? 'black' : 'white');
-        }
-    });
-    $('#graph').scroll(function(e) {
-        console.log(e);
-    });
+    $('#fullpage').fullpage();
 </script>
 <script src="/static/rhapsody_web/graph.js"></script>
 
