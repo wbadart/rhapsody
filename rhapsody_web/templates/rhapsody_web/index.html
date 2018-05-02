@@ -31,8 +31,7 @@
                 <source src="/static/rhapsody_web/record.mp4" type="video/mp4">
             </video>
         </div>
-        <form method="POST" name="entry" class="container", action="{% url 'recommend' %}">
-            {% csrf_token %}
+        <form name="entry" class="container" id="getrec" onsubmit="return getrec()">
             <br>
             <label for="entry">Enter the name of a song, artist or album you like</label>
             <div class="row">

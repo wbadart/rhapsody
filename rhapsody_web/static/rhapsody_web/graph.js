@@ -10,7 +10,17 @@
 (function(global) {
 'use strict';
 
-global.onload = getjson.bind(null, 'api/2YZyLoL8N0Wb9xBt1NhZWg', mkgraph);
+// global.onload = getjson.bind(null, 'api/2YZyLoL8N0Wb9xBt1NhZWg', mkgraph);
+global.getrec = function() {
+    var {value} = document.getElementById('entry');
+    function alert_recs(recs) {
+        console.dir(recs);
+        alert(JSON.stringify(recs.tracks));
+    }
+    getjson(`recommend/${value}`, alert_recs);
+    return false;
+}
+
 
 function mkgraph([names, links]) {
     var colors = {
