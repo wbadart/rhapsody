@@ -61,8 +61,7 @@ def recommend(req, name):
         return JsonResponse({'error': 'Not found'})
     else:
         spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
-        return JsonResponse(spotify.track_recommendations(node.spotify_id))
-    return JsonResponse(model_to_dict(node))
+        return JsonResponse(spotify.track_recommendations(node.spotify_id, limit=5))
 
 
 def _getobj(**query):

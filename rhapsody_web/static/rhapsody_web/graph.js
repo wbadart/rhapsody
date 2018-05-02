@@ -10,12 +10,19 @@
 (function(global) {
 'use strict';
 
-// global.onload = getjson.bind(null, 'api/2YZyLoL8N0Wb9xBt1NhZWg', mkgraph);
+global.onload = getjson.bind(null, 'api/2YZyLoL8N0Wb9xBt1NhZWg', mkgraph);
 global.getrec = function() {
     var {value} = document.getElementById('entry');
-    function alert_recs(recs) {
-        console.dir(recs);
-        alert(JSON.stringify(recs.tracks));
+    function alert_recs({tracks}) {
+        var tbody = document.getElementById('data-target');
+        tbody.innerHTML = '';
+        tracks.map(({name}) => name).map(name => {
+            var tr = document.createElement('tr')
+              , td = document.createElement('td');
+            td.textContent = name;
+            tr.appendChild(td);
+            return tr;
+        }).forEach(tbody.appendChild.bind(tbody));
     }
     getjson(`recommend/${value}`, alert_recs);
     return false;

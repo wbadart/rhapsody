@@ -72,10 +72,10 @@ class Spotify(object):
         '''Request the details for track of given track_id.'''
         return self.request('tracks/{0}'.format(track_id)).json()
 
-    def track_recommendations(self, track_id):
+    def track_recommendations(self, track_id, **params):
         '''Request recommendations for a seed track'''
-        return self.request(
-            'recommendations', {'seed_tracks': track_id}).json()
+        params['seed_tracks'] = track_id
+        return self.request('recommendations', params).json()
 
     def _refresh_token(self):
         '''Update self's access token with a new access token from Spotify.'''

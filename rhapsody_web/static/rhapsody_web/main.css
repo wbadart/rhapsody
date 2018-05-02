@@ -15,7 +15,7 @@ body, .fp-tooltip { font-family: 'Poppins', sans-serif !important; }
     margin-top: 6px;
 }
 div#graph {
-    height: 80%;
+    height: 75%;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 1em;
 }
@@ -94,4 +94,14 @@ div.app .btn-warning {
 
 .btn-outline-danger, .btn-outline-success {
     color: white;
+}
+
+table {
+    bottom: 10px;
+    color: white;
+    position: fixed;
+}
+
+thead {
+    border-bottom: 1px solid white;
 }
