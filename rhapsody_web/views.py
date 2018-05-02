@@ -1,6 +1,7 @@
 import rhapsody_web.models as models
 
 from django.core.serializers import serialize
+from django.forms.models import model_to_dict
 from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render, redirect
 
@@ -47,22 +48,12 @@ def nearest_neighbors(req, spotify_id):
     # spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
     # return JsonResponse(spotify.track_recommendations(id))
     # return JsonResponse(d)
-    try:
-        node = models.Song.objects.get(pk=spotify_id)
-    except models.Song.DoesNotExist:
-        try:
-            node = models.Artist.objects.get(pk=spotify_id)
-        except models.Artist.DoesNotExist:
-            try:
-                node = models.Album.objects.get(pk=spotify_id)
-            except models.Album.DoesNotExist:
-                pass
+    node = _getobj(pk=spotify_id)
     DEPTH = 3
     g = node.graph(DEPTH)
     nodes = loads(serialize('json', list(g)))
     edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
     return JsonResponse([nodes, edges], safe=False)
-
 
 
 def random_walk_n_recommendations(spotify_id):
@@ -108,3 +99,28 @@ def random_walk_n_recommendations(spotify_id):
     print(len(sorted_visits))
     print(sorted_visits[0])
     return sorted_visits[0:5]
+
+
+def recommend(req, name):
+    node = _getobj(name=name)
+    if node is None:
+        return JsonResponse({'error': 'Not found'})
+    else:
+        spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
+        return JsonResponse(spotify.track_recommendations(node.spotify_id))
+    return JsonResponse(model_to_dict(node))
+
+
+def _getobj(**query):
+    try:
+        node = models.Album.objects.get(**query)
+    except models.Album.DoesNotExist:
+        try:
+            node = models.Artist.objects.get(**query)
+        except models.Artist.DoesNotExist:
+            try:
+                node = models.Song.objects.get(**query)
+            except models.Song.DoesNotExist:
+                node = None
+    return node
+

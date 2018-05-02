@@ -87,6 +87,7 @@ class Song(models.Model, Node):
     artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
     album = models.ForeignKey(Album, null=True, on_delete=models.CASCADE)
     title = models.CharField(max_length=30, default="")
+    name = models.CharField(max_length=30, default="")
 
     def __str__(self):
         return self.title + " (" + self.spotify_id + ")"
