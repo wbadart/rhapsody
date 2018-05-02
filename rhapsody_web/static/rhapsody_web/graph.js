@@ -16,11 +16,14 @@ global.getrec = function() {
     function alert_recs({tracks}) {
         var tbody = document.getElementById('data-target');
         tbody.innerHTML = '';
-        tracks.map(({name}) => name).map(name => {
+        tracks.map(song => {
             var tr = document.createElement('tr')
-              , td = document.createElement('td');
-            td.textContent = name;
-            tr.appendChild(td);
+              , td_sng = document.createElement('td')
+              , td_art = document.createElement('td');
+            td_sng.textContent = song.name;
+            td_art.textContent = song.artists.map(a => a.name).join(', ');
+            tr.appendChild(td_sng);
+            tr.appendChild(td_art);
             return tr;
         }).forEach(tbody.appendChild.bind(tbody));
     }

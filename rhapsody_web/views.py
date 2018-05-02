@@ -104,7 +104,7 @@ def random_walk_n_recommendations(spotify_id):
 def recommend(req, name):
     node = _getobj(name=name)
     if node is None:
-        return JsonResponse({'tracks': [{'name': 'No recommendations found'}]})
+        return JsonResponse({'tracks': [{'name': 'No recommendations found', 'artist': ''}]})
     else:
         spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
         return JsonResponse(spotify.track_recommendations(node.spotify_id, limit=5))
