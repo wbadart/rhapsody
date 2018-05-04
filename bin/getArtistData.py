@@ -119,11 +119,16 @@ def checkRepeatAlbum(name,album_list):
     return True
 
 #remove the artists we already completed
-def completedArtists():
+def completedArtists(isList=None):
     with open('completed_artist.txt','r+') as f:
-         a_list = set()
-         for line in f:
-             a_list.add(line.rstrip())
+         if isList is None:
+             a_list = set()
+             for line in f:
+                 a_list.add(line.rstrip())
+         else:
+             a_list = list()
+             for line in f:
+                 a_list.append(line.rstrip())
     return a_list
 
 def main():
@@ -136,14 +141,14 @@ def main():
 
     spotify = Spotify(args.token)
     ids = partial(map, itemgetter('id'))
-    artists = getStartingArtist('../data/core_data.json')
+    artists = completedArtists(True)#getStartingArtist('../data/core_data.json')
     #track_set = set()
     completed_artists = set()
     with PersistentDict(
-        path='../data/artist_data16.json',
+        path='../data/artist_data18.json',
         encode=partial(dumps, indent=0)) as result:
         all_artists = artists
-        num_related = 3 # number of times to get related artist
+        num_related = 2 # number of times to get related artist
         for i in range(0,num_related):
             for artist in all_artists:
                 if artist in completed_artists: # already found them
