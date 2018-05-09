@@ -46,7 +46,7 @@ def rand_songs(req, n):
 
 def nearest_neighbors(req, spotify_id):
     node = _getobj(pk=spotify_id)
-    DEPTH = 3
+    DEPTH = 4
     edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
     vertices = {x for y in list(node.g.values()) for x in y}
     

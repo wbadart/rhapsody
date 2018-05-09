@@ -1,6 +1,7 @@
 from itertools import chain
 from django.db import models
 
+from random import choices
 
 class Node(object):
     def neighbors(self):
@@ -39,7 +40,7 @@ class Artist(models.Model, Node):
         #albums = (a for a in Album.objects.all() if self in a.artists.all())
         #songs = Song.objects.filter(artist=self)
         #return chain(albums, songs)
-        return Song.objects.filter(artist=self)
+        return choices(Song.objects.filter(artist=self), k=4)
 
 
 class Genre(models.Model):
@@ -79,7 +80,7 @@ class Album(models.Model, Node):
         return self.name + " (" + self.spotify_id + ")"
 
     def neighbors(self):
-        songs = Song.objects.filter(album=self)
+        songs = choices(Song.objects.filter(album=self), k=4)
         return chain(self.artists.all(), songs)
 
 
