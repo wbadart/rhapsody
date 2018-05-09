@@ -45,13 +45,15 @@ def rand_songs(req, n):
 
 
 def nearest_neighbors(req, spotify_id):
-    # spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
-    # return JsonResponse(spotify.track_recommendations(id))
-    # return JsonResponse(d)
     node = _getobj(pk=spotify_id)
-    DEPTH = 2
+    DEPTH = 3
     edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
-    nodes = loads(serialize('json', list(node.g)))
+    vertices = {x for y in list(node.g.values()) for x in y}
+    
+    for node in list(node.g):
+        vertices.add(node)
+
+    nodes = loads(serialize('json', vertices))
     return JsonResponse([nodes, edges], safe=False)
 
 

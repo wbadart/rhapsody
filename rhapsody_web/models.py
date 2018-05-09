@@ -18,8 +18,8 @@ class Node(object):
             return init
 
     def edges(self, depth=1):
-        g = self.graph(depth)
-        for vertex, edgelist in g.items():
+        self.g = self.graph(depth)
+        for vertex, edgelist in self.g.items():
             for edge in edgelist:
                 yield (vertex, edge)
 
@@ -36,9 +36,10 @@ class Artist(models.Model, Node):
         return self.name + " (" + self.spotify_id + ")"
 
     def neighbors(self):
-        albums = (a for a in Album.objects.all() if self in a.artists.all())
-        songs = Song.objects.filter(artist=self)
-        return chain(albums, songs)
+        #albums = (a for a in Album.objects.all() if self in a.artists.all())
+        #songs = Song.objects.filter(artist=self)
+        #return chain(albums, songs)
+        return Song.objects.filter(artist=self)
 
 
 class Genre(models.Model):

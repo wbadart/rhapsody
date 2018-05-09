@@ -52,16 +52,18 @@ class Command(BaseCommand):
                 except:
                     continue
                 
+                count = 0
                 for art in s['artists']:
                     artist_obj = Artist(spotify_id=art['id'],  popularity=None, name=art['name'])
                     artist_obj.save()
-                    alb.artists.add(artist_obj)
+                    if count == 0:
+                        so = Song(spotify_id=s['id'], title=s['name'][0:30], artist=artist_obj, album=alb)
+                        try:
+                            so.save()
+                        except:
+                            continue
 
-                so = Song(spotify_id=s['id'], title=s['name'][0:30], artist=artist_obj, \
-                            album=alb)
+                    alb.artists.add(artist_obj)
+                    count += 1
+
                 print(s['name'])
-                try:
-                    so.save()  
-                    playlist_obj.songs.add(so)             
-                except:
-                    pass
