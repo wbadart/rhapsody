@@ -49,10 +49,9 @@ def nearest_neighbors(req, spotify_id):
     # return JsonResponse(spotify.track_recommendations(id))
     # return JsonResponse(d)
     node = _getobj(pk=spotify_id)
-    DEPTH = 3
-    g = node.graph(DEPTH)
-    nodes = loads(serialize('json', list(g)))
+    DEPTH = 2
     edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
+    nodes = loads(serialize('json', list(node.g)))
     return JsonResponse([nodes, edges], safe=False)
 
 
