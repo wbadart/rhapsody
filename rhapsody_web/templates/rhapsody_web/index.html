@@ -32,6 +32,15 @@
             </video>
         </div>
         <form name="entry" class="container" id="getrec" onsubmit="return getrec()">
+            <div class="ui-widget container">
+                <label for="search">Enter the name of a song, artist or album you like</label>
+                <input id="entry" placeholder="Fallout Boy...">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-info">Go!</button>
+                </span>
+            </div>
+        </form>
+        <!-- <form name="entry" class="container" id="getrec" onsubmit="return getrec()">
             <br>
             <label for="entry">Enter the name of a song, artist or album you like</label>
             <div class="row">
@@ -42,7 +51,7 @@
                     <input type="submit" class="btn btn-info" value="Go!"></input>
                 </div>
             </div>
-        </form>
+        </form> -->
         <br>
         <div id="graph">
             <div class="text-center">
@@ -92,5 +101,14 @@
     $('#fullpage').fullpage();
 </script>
 <script src="/static/rhapsody_web/graph.js"></script>
+
+<script>
+    $(function() {
+        $("#entry").autocomplete({
+            source: "/api/search/",
+            minLength: 2,
+        });
+    });
+</script>
 
 {% endblock %}

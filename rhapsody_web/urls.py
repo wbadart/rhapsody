@@ -8,4 +8,5 @@ urlpatterns = [
     path('test/<int:n>', views.rand_songs, name='test'),
     path('api/<str:spotify_id>', views.nearest_neighbors, name='walk'),
     path('recommend/<str:name>', views.recommend, name='recommend'),
+    path('api/search/', views.search, name='search'),
 ]

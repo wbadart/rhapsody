@@ -9,7 +9,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 
-from json import loads
+from json import loads, dumps
 from random import sample, random, choice
 
 import sys
@@ -46,7 +46,7 @@ def rand_songs(req, n):
 
 def nearest_neighbors(req, spotify_id):
     node = _getobj(pk=spotify_id)
-    DEPTH = 5
+    DEPTH = 4
     edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
     vertices = {x for y in list(node.g.values()) for x in y}
     
@@ -107,8 +107,22 @@ def recommend(req, name):
     if node is None:
         return JsonResponse({'tracks': [{'name': 'No recommendations found', 'artist': ''}]})
     else:
-        spotify = crawl.Spotify('BQD3aEb1QpWDYzYFLio2snslfTgJ_WictCNpZE4ojRnBbgrWPjP1l6YYad6A8lRzJDeOi6XAEhUT8XHklUY')
+        spotify = crawl.Spotify('BQCmCTrB2ilbLEQfOFgMTwlw_td7db30DXx3AgNnlQ4tFXBubuQJmE8iKOcdsdlOR_aUq3zVN7gSt2zR9LQ')
         return JsonResponse(spotify.track_recommendations(node.spotify_id, limit=5))
+
+
+def search(request):
+    q = request.GET.get('term', '')
+    similar_songs = models.Song.objects.filter(title__icontains = q)[:10]
+    results = []
+    for s in similar_songs:
+        s_json = {}
+        s_json['id'] = s.spotify_id
+        s_json['label'] = s.title
+        s_json['value'] = s.title
+        results.append(s_json)
+    data = dumps(results)
+    return HttpResponse(data, 'application/json')
 
 
 def _getobj(**query):
