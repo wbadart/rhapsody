@@ -119,8 +119,8 @@ def recommend(req, name):
     if node is None:
         return JsonResponse({'tracks': [{'name': 'No recommendations found', 'artists': []}]})
     else:
-        spotify = crawl.Spotify('BQCmCTrB2ilbLEQfOFgMTwlw_td7db30DXx3AgNnlQ4tFXBubuQJmE8iKOcdsdlOR_aUq3zVN7gSt2zR9LQ')
-        return JsonResponse(spotify.track_recommendations(node.spotify_id, limit=5))
+        #spotify = crawl.Spotify('BQCmCTrB2ilbLEQfOFgMTwlw_td7db30DXx3AgNnlQ4tFXBubuQJmE8iKOcdsdlOR_aUq3zVN7gSt2zR9LQ')
+        return random_walk_n_recommendations(node.spotify_id)
 
 
 def search(request):
