@@ -49,7 +49,7 @@ def nearest_neighbors(req, spotify_id):
     DEPTH = 4
     edges = [[a.spotify_id, b.spotify_id] for a, b in node.edges(DEPTH)]
     vertices = {x for y in list(node.g.values()) for x in y}
-    
+
     for node in list(node.g):
         vertices.add(node)
 
@@ -105,7 +105,7 @@ def random_walk_n_recommendations(spotify_id):
 def recommend(req, name):
     node = _getobj(name=name)
     if node is None:
-        return JsonResponse({'tracks': [{'name': 'No recommendations found', 'artist': ''}]})
+        return JsonResponse({'tracks': [{'name': 'No recommendations found', 'artists': []}]})
     else:
         spotify = crawl.Spotify('BQCmCTrB2ilbLEQfOFgMTwlw_td7db30DXx3AgNnlQ4tFXBubuQJmE8iKOcdsdlOR_aUq3zVN7gSt2zR9LQ')
         return JsonResponse(spotify.track_recommendations(node.spotify_id, limit=5))
