@@ -46,7 +46,7 @@ function mkgraph([names, links]) {
     var nodes = new vis.DataSet(names.map(n => ({id: n.pk, label: n.fields[name[n.model]], color: colors[n.model]})))
       , edges = new vis.DataSet(links.map(([e1, e2]) => ({from: e1, to: e2})));
     var network = new vis.Network(document.getElementById('graph'), {nodes, edges}, {});
-    
+
     network.on("selectNode", function (params) {
         nodes.clear();
         edges.clear();
