@@ -102,7 +102,7 @@ def random_walk_n_recommendations(spotify_id):
 
     #print(len(sorted_visits))
     #print(sorted_visits[0])
-    recommendions = sorted_visits[0:5]
+    recommendations = sorted_visits[0:5]
     json_return = {'tracks' : []}
     for r in recommendations:
         if type(r) is models.Song: # song
