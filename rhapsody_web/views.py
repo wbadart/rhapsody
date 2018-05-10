@@ -106,11 +106,11 @@ def random_walk_n_recommendations(spotify_id):
     json_return = {'tracks' : []}
     for r in recommendations:
         if type(r) is models.Song: # song
-            json_return['tracks'].append({'name': r.title, 'model': 'SO'}])
+            json_return['tracks'].append({'name': r.title, 'model': 'SO'})
         elif type(r) is models.Artist: # artist
-            json_return['tracks'].append({'name': r.name, 'model': 'AR'}])
+            json_return['tracks'].append({'name': r.name, 'model': 'AR'})
         else: # Album 
-            json_return['tracks'].append({'name': r.name, 'model': 'AL'}])
+            json_return['tracks'].append({'name': r.name, 'model': 'AL'})
     return JsonResponse(json_return)
 
 
