@@ -77,7 +77,7 @@ def random_walk_n_recommendations(spotify_id):
 
     #    random.seed()
 
-    for i in range(100):
+    for i in range(1000):
         if current_node not in visits:
             visits[current_node] = 1
         else:
@@ -92,14 +92,26 @@ def random_walk_n_recommendations(spotify_id):
     #print(len(visits))
 
     sorted_visits = sorted(visits.items(), key=operator.itemgetter(1))
-    print(start_node)
-    if start_node in sorted_visits:
-        print("removing start_node")
-        sorted_visits.remove(start_node)
+    #print(start_node)
+    for node in sorted_visits:
+        if type(r) is models.Song:
+            if node.title == start_node.title:
+                sorted_visits.remove(node)
+        elif node.name == start_node.name:
+            sorted_visits.remove(node)
 
-    print(len(sorted_visits))
-    print(sorted_visits[0])
-    return sorted_visits[0:5]
+    #print(len(sorted_visits))
+    #print(sorted_visits[0])
+    recommendions = sorted_visits[0:5]
+    json_return = {'tracks' : []}
+    for r in recommendations:
+        if type(r) is models.Song: # song
+            json_return['tracks'].append({'name': r.title, 'model': 'SO'}])
+        elif type(r) is models.Artist: # artist
+            json_return['tracks'].append({'name': r.name, 'model': 'AR'}])
+        else: # Album 
+            json_return['tracks'].append({'name': r.name, 'model': 'AL'}])
+    return JsonResponse(json_return)
 
 
 def recommend(req, name):
