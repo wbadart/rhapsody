@@ -40,7 +40,11 @@ class Artist(models.Model, Node):
         #albums = (a for a in Album.objects.all() if self in a.artists.all())
         #songs = Song.objects.filter(artist=self)
         #return chain(albums, songs)
-        return choices(Song.objects.filter(artist=self), k=4)
+        adj_songs = Song.objects.filter(artist=self)
+        if len(adj_songs) > 4:
+            return choices(Song.objects.filter(artist=self), k=4)
+        else:
+            return adj_songs
 
 
 class Genre(models.Model):
