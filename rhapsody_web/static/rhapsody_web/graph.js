@@ -20,8 +20,13 @@ global.getrec = function() {
             var tr = document.createElement('tr')
               , td_sng = document.createElement('td')
               , td_art = document.createElement('td');
+            var types = {
+                'SO': 'Song',
+                'AR': 'Artist',
+                'AL': 'Album'
+            }
             td_sng.textContent = song.name;
-            td_art.textContent = song.model; //.join(',')
+            td_art.textContent = types[song.model]; //.join(',')
             tr.appendChild(td_sng);
             tr.appendChild(td_art);
             return tr;

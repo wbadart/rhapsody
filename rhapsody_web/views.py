@@ -92,12 +92,11 @@ def random_walk_n_recommendations(spotify_id):
     #print(len(visits))
 
     sorted_visits = sorted(visits.items(), key=operator.itemgetter(1))
-    #print(start_node)
     for node in sorted_visits:
-        if type(r) is models.Song:
-            if node.title == start_node.title:
+        if type(node) is models.Song:
+            if node[0].title == start_node.title:
                 sorted_visits.remove(node)
-        elif node.name == start_node.name:
+        elif node[0].name == start_node.name:
             sorted_visits.remove(node)
 
     #print(len(sorted_visits))
@@ -105,12 +104,12 @@ def random_walk_n_recommendations(spotify_id):
     recommendations = sorted_visits[0:5]
     json_return = {'tracks' : []}
     for r in recommendations:
-        if type(r) is models.Song: # song
-            json_return['tracks'].append({'name': r.title, 'model': 'SO'})
-        elif type(r) is models.Artist: # artist
-            json_return['tracks'].append({'name': r.name, 'model': 'AR'})
+        if type(r[0]) is models.Song: # song
+            json_return['tracks'].append({'name': r[0].title, 'model': 'SO'})
+        elif type(r[0]) is models.Artist: # artist
+            json_return['tracks'].append({'name': r[0].name, 'model': 'AR'})
         else: # Album 
-            json_return['tracks'].append({'name': r.name, 'model': 'AL'})
+            json_return['tracks'].append({'name': r[0].name, 'model': 'AL'})
     return JsonResponse(json_return)
 
 
@@ -138,15 +137,12 @@ def search(request):
 
 
 def _getobj(**query):
-    try:
-        node = models.Album.objects.get(**query)
-    except models.Album.DoesNotExist:
-        try:
-            node = models.Artist.objects.get(**query)
-        except models.Artist.DoesNotExist:
-            try:
-                node = models.Song.objects.get(**query)
-            except models.Song.DoesNotExist:
-                node = None
-    return node
+    nodes = models.Album.objects.filter(**query)
+    if not nodes:
+        nodes = models.Artist.objects.filter(**query)
+        if not nodes:
+            nodes = models.Song.objects.filter(**query)
+            if not nodes:
+                return None
+    return nodes[0]
 
